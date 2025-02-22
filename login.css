@@ -1,6 +1,6 @@
 @font-face {
   font-family: peyda;
-  src: url(../Fonts/PeydaWeb.woff);
+  src: url(fonts/PeydaWeb.woff);
 }
 
 ::selection {
@@ -104,10 +104,13 @@ body {
 
 #h1 {
   font-size: 30px;
+  margin-top: 10px;
+}
+#p{
+  margin-top: 5px;
 }
 
 .bl-top {
-  height: 25%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -116,7 +119,6 @@ body {
 }
 
 .bl-center {
-  height: 50%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -126,11 +128,12 @@ body {
 
 #repass {
   font-size: 14px;
+  margin-top: 25px;
 }
 
 .bl-center input {
   width: 75%;
-  height: 40px;
+  height: 50px;
   border: none;
   border-bottom: 1px solid white;
   border-top-left-radius: 5px;
@@ -141,57 +144,17 @@ body {
   outline: none;
   transition: 250ms ease-out;
   color: rgb(84, 84, 84);
+  margin-top: 15px;
+}
+
+#user_name{
+  margin-top: 50px;
 }
 
 .bl-center input:focus {
   border-bottom: 1px solid black;
 }
 
-.hrs {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  cursor: default;
-}
-
-hr {
-  width: 40%;
-}
-
-.bl-bottom {
-  height: 25%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.google-sign {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 20px;
-  padding-left: 20px;
-  border: 1px dashed green;
-  border-radius: 4px;
-  background: rgba(1, 255, 1, 0.15);
-  transition: 300ms ease-out;
-}
-
-.google-sign:hover {
-  background: rgba(1, 255, 1, 0.25);
-}
-
-.bl-bottom img {
-  width: 35px;
-  background: none;
-  margin-left: 15px;
-  margin-top: 3px;
-}
 
 #login-btn {
   width: 80%;
@@ -203,6 +166,13 @@ hr {
   transition: 300ms ease-out;
   cursor: pointer;
   color: white;
+  margin-top: 25px;
+}
+
+.bl-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #login-btn:hover {
@@ -215,6 +185,13 @@ hr {
   height: 100%;
   background: #000;
   border-radius: 20px;
+}
+
+#captcha-img{
+  width: 130px;
+  background: white;
+  border-radius: 7px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1300px) {

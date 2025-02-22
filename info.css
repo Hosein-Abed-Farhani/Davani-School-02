@@ -229,11 +229,10 @@ body {
 #davani-p2 {
   width: auto;
   display: inline;
-
 }
 
-.phone-number{
-  font-family: yekan , peyda;
+.phone-number {
+  font-family: yekan, peyda;
 }
 
 .davani-pes span {
@@ -315,6 +314,136 @@ body {
   color: gray;
   width: 80%;
   text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  max-width: 1900px;
+  align-self: center;
+}
+.gallery-top {
+  width: 85%;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1900px;
+  align-self: center;
+  margin-bottom: 100px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.slider.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-box {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.images {
+  border-radius: 5px;
+  width: 100%;
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+#next,
+#back {
+  width: 60px;
+  position: absolute;
+  top: 45%;
+  height: 60px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: none;
+  font-size: 22px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+#next:hover,
+#back:hover {
+  background: #00000094;
+}
+
+#p-slide {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  color: white;
+}
+
+#next {
+  right: 0;
+}
+
+#back {
+  left: 0;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#image-2,
+#image-3,
+#image-4,
+#image-5 {
+  display: none;
+}
+
+.circles {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+.circle {
+  width: 20%;
+  height: 11px;
+  border-radius: 100%;
+  background: none;
+  border: 1px solid white;
+  margin-left: 7px;
+  margin-right: 7px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background: rgb(70, 199, 99);
+}
+
+#circle-1 {
+  background: rgb(70, 199, 99);
+  width: 50%;
+  border-radius: 15px;
 }
 
 /* content end */

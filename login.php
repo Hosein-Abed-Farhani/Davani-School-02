@@ -18,12 +18,17 @@
                 <div class="box-login">
                     <div class="bl-top">
                         <h1 id="h1">خوش آمدید!</h1>
-                        <p> لطفا مشخصات خود را وارد کنید</p>
+                        <p id="p"> لطفا مشخصات خود را وارد کنید</p>
                     </div>
                     <div class="bl-center">
                         <input type="text" name="user_name" id="user_name" placeholder="نام کاربری">
                         <input type="password" name="user_pass" id="user_pass" placeholder="گذرواژه">
+                        <input type="text" placeholder="کد کپچا">
+                        <img id="captcha-img" src="images/captcha.png" alt="">
                         <a id="repass" href="">بازیابی گذرواژه</a>
+                    </div>
+                    <div class="bl-bottom">
+
                         <button id="login-btn">ورود</button>
                     </div>
                 </div>

@@ -157,6 +157,33 @@
                 </div>
             </div>
         </div>
+        <div class="gallery">
+            <div class="gallery-top">
+                <div class="title-3">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <h2>گالری هنرستان</h2>
+                </div>
+            </div>
+            <div class="slider" id="slider">
+                <div class="slide-box">
+                    <img id="image-1" class="images" src="images/image-1.jpg">
+                    <img id="image-2" class="images" src="images/image-2.jpg">
+                    <img id="image-3" class="images" src="images/image-3.jpg">
+                    <img id="image-4" class="images" src="images/image-4.jpg">
+                    <img id="image-5" class="images" src="images/image-5.jpg">
+                    <p id="p-slide">1/5</p>
+                    <span id="next" onclick="next()"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                    <span id="back" onclick="back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+                    <div class="circles">
+                        <div class="circle" id="circle-5" onclick="cir_5()"></div>
+                        <div class="circle" id="circle-4" onclick="cir_4()"></div>
+                        <div class="circle" id="circle-3" onclick="cir_3()"></div>
+                        <div class="circle" id="circle-2" onclick="cir_2()"></div>
+                        <div class="circle" id="circle-1" onclick="cir_1()"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- content end -->
 

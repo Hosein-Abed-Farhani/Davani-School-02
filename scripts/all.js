@@ -1,9 +1,4 @@
 
-  // screen_width = screen.width;
-  // if (screen_width <= 550){
-
-  // }
-
 //scroll bar
 
 window.onscroll = function () {
