@@ -1,0 +1,36 @@
+/* header and nav start */
+
+#hc_3 {
+  border-bottom: 4px solid rgb(70, 199, 99);
+}
+
+/* header and nav end */
+
+/* content start */
+
+body {
+  background: rgb(233, 233, 233);
+  transition: 300ms ease-out;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+/* content end */
+
+/* footr start */
+
+/* footr end */
+
+/* responsive start */
+
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 550px) {
+}
+
+/* responsive end */
