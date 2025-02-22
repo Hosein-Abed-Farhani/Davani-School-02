@@ -7,8 +7,8 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <title>هنرستان علامه دوانی - صفحه اصلی</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/all.css">
-    <link rel="stylesheet" href="home-page/style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 
@@ -160,11 +160,11 @@
         </div>
         <div class="slider" id="slider">
             <div class="slide-box">
-                <img id="image-1" class="images" src="home-page/image/image-1.jpg">
-                <img id="image-2" class="images" src="home-page/image/image-2.jpg">
-                <img id="image-3" class="images" src="home-page/image/image-3.jpg">
-                <img id="image-4" class="images" src="home-page/image/image-4.jpg">
-                <img id="image-5" class="images" src="home-page/image/image-5.jpg">
+                <img id="image-1" class="images" src="images/image-1.jpg">
+                <img id="image-2" class="images" src="images/image-2.jpg">
+                <img id="image-3" class="images" src="images/image-3.jpg">
+                <img id="image-4" class="images" src="images/image-4.jpg">
+                <img id="image-5" class="images" src="images/image-5.jpg">
                 <p id="p-slide">1/5</p>
                 <span id="next" onclick="next()"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
                 <span id="back" onclick="back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
@@ -192,7 +192,7 @@
     <!-- scripts start -->
 
     <script src="scripts/all.js"></script>
-    <script src="home-page/script.js"></script>
+    <script src="scripts/home.js"></script>
 
     <!-- scripts end -->
 </body>

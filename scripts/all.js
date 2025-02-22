@@ -1,11 +1,8 @@
 
-  My_Width = screen.width;
+  // screen_width = screen.width;
+  // if (screen_width <= 550){
 
-  if (My_Width <= 700) {
-    alert("اندازه کمتر از ۷۰۰ هست");
-  } else {
-    alert("اندازه بیشتر از ۷۰۰ هست");
-  }
+  // }
 
 //scroll bar
 

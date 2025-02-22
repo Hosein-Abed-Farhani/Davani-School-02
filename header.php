@@ -12,7 +12,7 @@
     <header id="header">
         <div class="header-right">
             <a href="home.php">
-                <img id="logo" src="Images/davani.png" alt="Logo">
+                <img id="logo" src="images/davani.png" alt="Logo">
             </a>
         </div>
         <div class="header-center">
@@ -38,7 +38,7 @@
             </a>
             <span id="span-header">|</span>
             <a href="user.php">
-                <img id="user-profile" src="Images/user.png" alt="user profile" title="user profile">
+                <img id="user-profile" src="images/user.png" alt="user profile" title="user profile">
             </a>
         </div>
     </header>

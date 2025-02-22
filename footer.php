@@ -23,7 +23,7 @@
         <div class="t-footer">
             <div class="f-icon">
                 <a href="home.php">
-                    <img id="footer-icon" src="Images/davani.png" alt="DavaniSchool - Icon" title="DavaniSchool - Icon">
+                    <img id="footer-icon" src="images/davani.png" alt="DavaniSchool - Icon" title="DavaniSchool - Icon">
                 </a>
             </div>
             <p id="ft-p-1">هدف ما افزایش کیفیت آموزش و تحصیل است</p>
@@ -39,10 +39,10 @@
                 <a href="contact.php">ارتباط با ما</a>
             </div>
             <div class="cf-img">
-                <a href="tel:09373571877"><img src="Images/phone.png" alt="تلفن هنرستان" title="تلفن هنرستان"></a>
-                <a href="https://eitaa.com/Davani1402" target="_blank"><img src="Images/eitaa.png" alt="ایتا هنرستان"
+                <a href="tel:09373571877"><img src="images/phone.png" alt="تلفن هنرستان" title="تلفن هنرستان"></a>
+                <a href="https://eitaa.com/Davani1402" target="_blank"><img src="images/eitaa.png" alt="ایتا هنرستان"
                         title="ایتا هنرستان"></a>
-                <a href="https://rubika.ir/DavaniSchool" target="_blank"><img src="Images/rubika.png"
+                <a href="https://rubika.ir/DavaniSchool" target="_blank"><img src="images/rubika.png"
                         alt="روبیکا سایت" title="روبیکا سایت"></a>
             </div>
         </div>

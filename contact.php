@@ -7,9 +7,9 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <title>هنرستان علامه دوانی - ارتباط با ما</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/all.css">
-    <link rel="stylesheet" href="contact-page/style.css">
-    <link rel="icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                 <p>در این صفحه میتوانید راه های ارتباط با ما را مشاهده کنید.</p>
             </div>
             <div class="content-img-left">
-                <img src="contact-page/image/contact.png" alt="">
+                <img src="images/contact.png" alt="">
             </div>
         </div>
         <div class="contnet-links">
@@ -42,11 +42,11 @@
                     <p>شبکه های اجتماعی</p>
                     <div id="contact-icon">
                         <a id="img-link-1" href="https://eitaa.com/Davani1402" target="_blank">
-                            <img src="Images/eitaa.png" alt="eitaa" title="ایتا هنرستان">
+                            <img src="images/eitaa.png" alt="eitaa" title="ایتا هنرستان">
                             <p> دیدن کانال هنرستان در ایتا </p>
                         </a>
                         <a id="img-link-2" href="https://rubika.ir/DavaniSchool" target="_blank">
-                            <img src="Images/rubika.png" alt="روبیکا سایت" title="روبیکا سایت">
+                            <img src="images/rubika.png" alt="روبیکا سایت" title="روبیکا سایت">
                             <p>دیدن کانال سایت در روبیکا </p>
                         </a>
                     </div>
@@ -125,8 +125,8 @@
         </div>
         <div class="contact-button">
             <div class="button-right">
-                <img id="arrow-1" onclick="arrow_right()" src="Images/arrow.png" alt="arrow">
-                <img id="arrow-2" onclick="arrow_left()" src="Images/arrow.png" alt="arrow">
+                <img id="arrow-1" onclick="arrow_right()" src="images/arrow.png" alt="arrow">
+                <img id="arrow-2" onclick="arrow_left()" src="images/arrow.png" alt="arrow">
             </div>
             <div class="button-left">
                 <button>ارسال پیام به ما</button>
@@ -153,7 +153,7 @@
     <!-- scripts start -->
 
     <script src="scripts/all.js"></script>
-    <script src="contact-page/script.js"></script>
+    <script src="scripts/contact.js"></script>
 
     <!-- scripts end -->
 </body>

@@ -7,8 +7,8 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <title>هنرستان علامه دوانی - درباره ما</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/all.css">
-    <link rel="stylesheet" href="info-page/style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="info.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div id="cp-left">
-                <img id="info-img" src="info-page/image/info.png" alt="">
+                <img id="info-img" src="images/info.png" alt="">
             </div>
         </div>
         <div class="title-info-box">
@@ -46,7 +46,7 @@
         <div id="info-box-1">
             <div id="info-boxes-1" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="info-page/image/box-info.png" alt="">
+                    <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
                     <h2>تایتل تست باکس 1</h2>
@@ -55,7 +55,7 @@
             </div>
             <div id="info-boxes-2" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="info-page/image/box-info.png" alt="">
+                    <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
                     <h2>تایتل تست باکس 2</h2>
@@ -66,7 +66,7 @@
         <div id="info-box-2">
             <div id="info-boxes-3" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="info-page/image/box-info.png" alt="">
+                    <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
                     <h2>تایتل تست باکس 3</h2>
@@ -75,7 +75,7 @@
             </div>
             <div id="info-boxes-4" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="info-page/image/box-info.png" alt="">
+                    <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
                     <h2>تایتل تست باکس 4</h2>
@@ -128,11 +128,11 @@
         <div class="web-info">
             <div id="web-box-1" class="web-box">
                 <div class="web-div-images">
-                    <img src="info-page/image/front.png" alt="" class="web-info-img">
+                    <img src="images/front.png" alt="" class="web-info-img">
                     <p>فرانت اند</p>
                 </div>
                 <div class="web-info-content">
-                    <img src="info-page/image/user.png" alt="" class="prof-img">
+                    <img src="images/user.png" alt="" class="prof-img">
                     <h1>حسین عبد فرهانی</h1>
                     <p>
                         یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
@@ -143,11 +143,11 @@
             </div>
             <div id="web-box-2" class="web-box">
                 <div class="web-div-images">
-                    <img src="info-page/image/back.png" alt="" class="web-info-img">
+                    <img src="images/back.png" alt="" class="web-info-img">
                     <p>بک اند</p>
                 </div>
                 <div class="web-info-content">
-                    <img src="info-page/image/user.png" alt="" class="prof-img">
+                    <img src="images/user.png" alt="" class="prof-img">
                     <h1>علیرضا سپاهیان</h1>
                     <p>
                         یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
@@ -171,7 +171,7 @@
     <!-- scripts start -->
 
     <script src="scripts/all.js"></script>
-    <script src="info-page/script.js"></script>
+    <script src="scripts/info.js"></script>
 
     <!-- scripts end -->
 </body>
