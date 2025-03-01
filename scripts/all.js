@@ -1,4 +1,3 @@
-
 //scroll bar
 
 window.onscroll = function () {

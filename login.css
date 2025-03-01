@@ -104,7 +104,7 @@ body {
 
 #h1 {
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #p{
   margin-top: 5px;
@@ -158,7 +158,7 @@ body {
 
 #login-btn {
   width: 80%;
-  height: 40px;
+  height: 43px;
   border-radius: 7px;
   border: none;
   background: rgb(70, 199, 99);
@@ -166,7 +166,7 @@ body {
   transition: 300ms ease-out;
   cursor: pointer;
   color: white;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .bl-bottom{
@@ -187,11 +187,9 @@ body {
   border-radius: 20px;
 }
 
-#captcha-img{
-  width: 130px;
-  background: white;
-  border-radius: 7px;
-  margin-top: 20px;
+#captcha{
+  width: 60%;
+  margin-top: 22px;
 }
 
 @media screen and (max-width: 1300px) {

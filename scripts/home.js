@@ -1,3 +1,8 @@
+// nav scroll anim
+const container = document.querySelector('.hbd-container');
+container.scrollLeft = container.scrollWidth; // اسکرول به انتهای عرضی
+
+
 // image slider
 
 function slide_func() {
@@ -202,99 +207,106 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 // translate anim cart
 let arrow_cart = 1;
 function c_a_left() {
   arrow_cart++;
-  if (arrow_cart == 0){
+  if (arrow_cart == 0) {
     arrow_cart = 4;
   }
-  if (arrow_cart == 5){
+  if (arrow_cart == 5) {
     arrow_cart = 1;
   }
-  if (arrow_cart == 1){
+  if (arrow_cart == 1) {
     document.querySelector(".t-carts").style.translate = "0px";
   }
-  if (arrow_cart == 2){
+  if (arrow_cart == 2) {
     document.querySelector(".t-carts").style.translate = "400px";
   }
-  if (arrow_cart == 3){
+  if (arrow_cart == 3) {
     document.querySelector(".t-carts").style.translate = "800px";
   }
-  if (arrow_cart == 4){
+  if (arrow_cart == 4) {
     document.querySelector(".t-carts").style.translate = "1200px";
   }
 }
 function c_a_right() {
-  arrow_cart--  ;
-  if (arrow_cart == 0){
+  arrow_cart--;
+  if (arrow_cart == 0) {
     arrow_cart = 4;
   }
-  if (arrow_cart == 5){
+  if (arrow_cart == 5) {
     arrow_cart = 1;
   }
-  if (arrow_cart == 1){
+  if (arrow_cart == 1) {
     document.querySelector(".t-carts").style.translate = "0px";
   }
-  if (arrow_cart == 2){
+  if (arrow_cart == 2) {
     document.querySelector(".t-carts").style.translate = "400px";
   }
-  if (arrow_cart == 3){
+  if (arrow_cart == 3) {
     document.querySelector(".t-carts").style.translate = "800px";
   }
-  if (arrow_cart == 4){
+  if (arrow_cart == 4) {
     document.querySelector(".t-carts").style.translate = "1200px";
   }
 }
 
 function c_a_left_2() {
   arrow_cart++;
-  if (arrow_cart == 0){
+  if (arrow_cart == 0) {
     arrow_cart = 5;
   }
-  if (arrow_cart == 6){
+  if (arrow_cart == 6) {
     arrow_cart = 1;
   }
-  if (arrow_cart == 1){
+  if (arrow_cart == 1) {
     document.querySelector(".t-carts").style.translate = "0px";
   }
-  if (arrow_cart == 2){
+  if (arrow_cart == 2) {
     document.querySelector(".t-carts").style.translate = "400px";
   }
-  if (arrow_cart == 3){
+  if (arrow_cart == 3) {
     document.querySelector(".t-carts").style.translate = "800px";
   }
-  if (arrow_cart == 4){
+  if (arrow_cart == 4) {
     document.querySelector(".t-carts").style.translate = "1200px";
   }
-  if (arrow_cart == 5){
+  if (arrow_cart == 5) {
     document.querySelector(".t-carts").style.translate = "1600px";
   }
 }
 function c_a_right_2() {
-  arrow_cart--  ;
-  if (arrow_cart == 0){
+  arrow_cart--;
+  if (arrow_cart == 0) {
     arrow_cart = 5;
   }
-  if (arrow_cart == 6){
+  if (arrow_cart == 6) {
     arrow_cart = 1;
   }
-  if (arrow_cart == 1){
+  if (arrow_cart == 1) {
     document.querySelector(".t-carts").style.translate = "0px";
   }
-  if (arrow_cart == 2){
+  if (arrow_cart == 2) {
     document.querySelector(".t-carts").style.translate = "400px";
   }
-  if (arrow_cart == 3){
+  if (arrow_cart == 3) {
     document.querySelector(".t-carts").style.translate = "800px";
   }
-  if (arrow_cart == 4){
+  if (arrow_cart == 4) {
     document.querySelector(".t-carts").style.translate = "1200px";
   }
-  if (arrow_cart == 5){
+  if (arrow_cart == 5) {
     document.querySelector(".t-carts").style.translate = "1600px";
   }
+}
+
+web_width = screen.width;
+
+if (web_width >= 768) {
+  setInterval(c_a_left, 2500);
+} else if (web_width <= 768) {
+  setInterval(c_a_left_2, 2500);
 }
 
 // cart-container anim
@@ -321,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// gallery anim 
+// gallery anim
 
 document.addEventListener("DOMContentLoaded", function () {
   const classBoxes = document.querySelectorAll(".slider");

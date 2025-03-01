@@ -8,7 +8,7 @@
     <title>هنرستان علامه دوانی - پروفایل کاربر</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="all.css">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="article.css">
     <link rel="icon" href="images/favicon.png">
 </head>
 
@@ -24,7 +24,7 @@
 
     <!-- content start -->
 
-    <h1 style="margin-top: 300px;width: 100%;text-align: center;font-size: 30px;margin-bottom:300px;">Test-Page</h1>
+    <h1 style="margin-top: 300px;width: 100%;text-align: center;font-size: 30px;margin-bottom:300px;">به زودی....</h1>
 
     <!-- content end -->
 
@@ -39,7 +39,7 @@
     <!-- scripts start -->
 
     <script src="scripts/all.js"></script>
-    <script src="scripts/test.js"></script>
+    <script src="scripts/article.js"></script>
 
     <!-- scripts end -->
 </body>

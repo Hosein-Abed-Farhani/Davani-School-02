@@ -23,9 +23,8 @@
                     <div class="bl-center">
                         <input type="text" name="user_name" id="user_name" placeholder="نام کاربری">
                         <input type="password" name="user_pass" id="user_pass" placeholder="گذرواژه">
-                        <input type="text" placeholder="کد کپچا">
-                        <img id="captcha-img" src="images/captcha.png" alt="">
                         <a id="repass" href="">بازیابی گذرواژه</a>
+                        <img id="captcha" src="images/captcha.gif" alt="captcha">
                     </div>
                     <div class="bl-bottom">
 

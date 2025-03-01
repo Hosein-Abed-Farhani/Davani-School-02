@@ -22,8 +22,8 @@
             <a id="hc_5" class="header-content" href="news.php">
                 <p>اخبار</p>
             </a>
-            <a id="hc_2" class="header-content" href="test.php">
-                <p>تست</p>
+            <a id="hc_2" class="header-content" href="article.php">
+                <p>مقاله ها</p>
             </a>
             <a id="hc_4" class="header-content" href="contact.php">
                 <p>ارتباط با ما</p>

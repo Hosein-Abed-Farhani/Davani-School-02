@@ -263,3 +263,169 @@ function cir_5() {
   document.querySelector("#circle-5").style.width = "50%";
   document.querySelector("#circle-5").style.borderRadius = "15px";
 }
+
+// class box anim
+
+document.addEventListener("DOMContentLoaded", function () {
+  const classBoxes = document.querySelectorAll(".class-box");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.1, // 10% از آیتم باید در دید باشد
+    }
+  );
+
+  // مشاهده هر کدام از آیتم‌ها
+  classBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});
+
+// translate anim cart
+let arrow_cart = 1;
+function c_a_left() {
+  arrow_cart++;
+  if (arrow_cart == 0) {
+    arrow_cart = 4;
+  }
+  if (arrow_cart == 5) {
+    arrow_cart = 1;
+  }
+  if (arrow_cart == 1) {
+    document.querySelector(".t-carts").style.translate = "0px";
+  }
+  if (arrow_cart == 2) {
+    document.querySelector(".t-carts").style.translate = "400px";
+  }
+  if (arrow_cart == 3) {
+    document.querySelector(".t-carts").style.translate = "800px";
+  }
+  if (arrow_cart == 4) {
+    document.querySelector(".t-carts").style.translate = "1200px";
+  }
+}
+function c_a_right() {
+  arrow_cart--;
+  if (arrow_cart == 0) {
+    arrow_cart = 4;
+  }
+  if (arrow_cart == 5) {
+    arrow_cart = 1;
+  }
+  if (arrow_cart == 1) {
+    document.querySelector(".t-carts").style.translate = "0px";
+  }
+  if (arrow_cart == 2) {
+    document.querySelector(".t-carts").style.translate = "400px";
+  }
+  if (arrow_cart == 3) {
+    document.querySelector(".t-carts").style.translate = "800px";
+  }
+  if (arrow_cart == 4) {
+    document.querySelector(".t-carts").style.translate = "1200px";
+  }
+}
+
+function c_a_left_2() {
+  arrow_cart++;
+  if (arrow_cart == 0) {
+    arrow_cart = 5;
+  }
+  if (arrow_cart == 6) {
+    arrow_cart = 1;
+  }
+  if (arrow_cart == 1) {
+    document.querySelector(".t-carts").style.translate = "0px";
+  }
+  if (arrow_cart == 2) {
+    document.querySelector(".t-carts").style.translate = "400px";
+  }
+  if (arrow_cart == 3) {
+    document.querySelector(".t-carts").style.translate = "800px";
+  }
+  if (arrow_cart == 4) {
+    document.querySelector(".t-carts").style.translate = "1200px";
+  }
+  if (arrow_cart == 5) {
+    document.querySelector(".t-carts").style.translate = "1600px";
+  }
+}
+function c_a_right_2() {
+  arrow_cart--;
+  if (arrow_cart == 0) {
+    arrow_cart = 5;
+  }
+  if (arrow_cart == 6) {
+    arrow_cart = 1;
+  }
+  if (arrow_cart == 1) {
+    document.querySelector(".t-carts").style.translate = "0px";
+  }
+  if (arrow_cart == 2) {
+    document.querySelector(".t-carts").style.translate = "400px";
+  }
+  if (arrow_cart == 3) {
+    document.querySelector(".t-carts").style.translate = "800px";
+  }
+  if (arrow_cart == 4) {
+    document.querySelector(".t-carts").style.translate = "1200px";
+  }
+  if (arrow_cart == 5) {
+    document.querySelector(".t-carts").style.translate = "1600px";
+  }
+}
+
+// cart-container anim
+
+document.addEventListener("DOMContentLoaded", function () {
+  const classBoxes = document.querySelectorAll(".test-carts");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.3, // 10% از آیتم باید در دید باشد
+    }
+  );
+
+  // مشاهده هر کدام از آیتم‌ها
+  classBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});
+
+// gallery anim
+
+document.addEventListener("DOMContentLoaded", function () {
+  const classBoxes = document.querySelectorAll(".slider");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.1, // 10% از آیتم باید در دید باشد
+    }
+  );
+
+  // مشاهده هر کدام از آیتم‌ها
+  classBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});

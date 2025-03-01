@@ -39,9 +39,32 @@
                 <img id="info-img" src="images/info.png" alt="">
             </div>
         </div>
-        <div class="title-info-box">
-            <div></div>
-            <h1>بخشی از فعالیت های ما</h1>
+        <div class="web-info">
+            <div class="title-info-box-2">
+                <div></div>
+                <h1>مدیریت هنرستان</h1>
+            </div>
+            <div id="web-box-1" class="web-box">
+                <div class="web-div-images">
+                    <img src="images/modir.png" alt="" class="web-info-img">
+                    <p>مدیر</p>
+                </div>
+                <div class="web-info-content">
+                    <img src="images/user.png" alt="" class="prof-img">
+                    <h1>نام و نام خانوادگی</h1>
+                    <p>
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                        یه سری اطلاعات مربوط به مدیر
+                    </p>
+                </div>
+            </div>
         </div>
         <div id="info-box-1">
             <div id="info-boxes-1" class="info-boxes">
@@ -49,8 +72,17 @@
                     <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>تایتل تست باکس 1</h2>
-                    <p>محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس</p>
+                    <h2>معاون اول</h2>
+                    <p>
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                    </p>
                 </div>
             </div>
             <div id="info-boxes-2" class="info-boxes">
@@ -58,8 +90,17 @@
                     <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>تایتل تست باکس 2</h2>
-                    <p>محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس</p>
+                    <h2>معاون دوم</h2>
+                    <p>
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                    </p>
                 </div>
             </div>
         </div>
@@ -69,8 +110,17 @@
                     <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>تایتل تست باکس 3</h2>
-                    <p>محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس</p>
+                    <h2>معاون سوم</h2>
+                    <p>
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                    </p>
                 </div>
             </div>
             <div id="info-boxes-4" class="info-boxes">
@@ -78,14 +128,23 @@
                     <img src="images/box-info.png" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>تایتل تست باکس 4</h2>
-                    <p>محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس محتوای درون باکس</p>
+                    <h2>معاون چهارم</h2>
+                    <p>
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                        یه سری اطلاعات مربوط به معاون
+                    </p>
                 </div>
             </div>
         </div>
         <div class="title-info-box">
             <div></div>
-            <h1> هنرستان علامه دوانی</h1>
+            <h1>درباره هنرستان</h1>
         </div>
         <div class="davani-info">
             <div id="dav-box-1" class="davani-box">
@@ -98,9 +157,14 @@
                     <p id="davani-p2">خوابگاه، کتابخانه ، نماز خانه ، کلاس هوشمند ، آزمایشگاه </p>
                 </div>
                 <div class="davani-pes">
-                    <p id="davani-p2">شماره تماس </p>
+                    <p id="davani-p2">شماره هنرستان </p>
                     <span>:</span>
                     <p id="davani-p2" class="phone-number">09373571877</p>
+                </div>
+                <div class="davani-pes">
+                    <p id="davani-p2">شماره معاونین </p>
+                    <span>:</span>
+                    <p id="davani-p2" class="phone-number">09373571877 , 09373571877</p>
                 </div>
             </div>
             <div id="dav-box-2" class="davani-box">
@@ -110,60 +174,29 @@
                 <div class="davani-pes">
                     <p id="davani-p2">سال های تحصیلی</p>
                     <span>:</span>
-                    <p id="davani-p2">دهم ، یازدهم و دوازدهم</p>
+                    <p id="davani-p2">
+                        دهم ، یازدهم و دوازدهم</p>
                 </div>
                 <div class="davani-pes">
                     <p id="davani-p2">رشته های تحصیلی</p>
                     <span>:</span>
-                    <p id="davani-p2">شبکه و نرم افزار ، الکترونیک و الکتروتکنیک</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="title-info-box">
-            <div></div>
-            <h1>تیم</h1>
-            <h1 id="davani-h1">Davani School</h1>
-        </div>
-        <div class="web-info">
-            <div id="web-box-1" class="web-box">
-                <div class="web-div-images">
-                    <img src="images/front.png" alt="" class="web-info-img">
-                    <p>فرانت اند</p>
-                </div>
-                <div class="web-info-content">
-                    <img src="images/user.png" alt="" class="prof-img">
-                    <h1>حسین عبد فرهانی</h1>
-                    <p>
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
-                    </p>
-                </div>
-            </div>
-            <div id="web-box-2" class="web-box">
-                <div class="web-div-images">
-                    <img src="images/back.png" alt="" class="web-info-img">
-                    <p>بک اند</p>
-                </div>
-                <div class="web-info-content">
-                    <img src="images/user.png" alt="" class="prof-img">
-                    <h1>علیرضا سپاهیان</h1>
-                    <p>
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
-                        یه سری توضیحات مربوط به توانایی ها و کار های انجام داده شده
+                    <a href="">شبکه و نرم افزار</a>
+                    ،
+                    <a href="">الکترونیک</a>
+                    و
+                    <a href="">الکتروتکنیک</a>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="gallery">
+        <div class="gallery" id="gallery">
             <div class="gallery-top">
-                <div class="title-3">
-                    <i class="fa fa-circle" aria-hidden="true"></i>
-                    <h2>گالری هنرستان</h2>
+                <div class="title-info-box">
+                    <div></div>
+                    <h1>گالری هنرستان</h1>
                 </div>
             </div>
+            <div id="scroll-gallery"></div>
             <div class="slider" id="slider">
                 <div class="slide-box">
                     <img id="image-1" class="images" src="images/image-1.jpg">
@@ -185,6 +218,7 @@
             </div>
         </div>
     </div>
+
     <!-- content end -->
 
     <!-- float btn (back to top) & footer start -->

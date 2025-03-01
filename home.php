@@ -23,27 +23,60 @@
     <!-- header & scroll bar & navbar start  -->
 
     <!-- content start -->
-
-    <div class="class">
-        <div class="title-2">
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <h1>دسته بندی دوره ها</h1>
-        </div>
-        <div class="class-boxes">
-            <div class="boxes-right">
-                <a href="" id="cb-1" class="class-box">دهم</a>
-                <a href="" id="cb-2" class="class-box">یازدهم</a>
+    <div class="clip-path">
+        <div id="cp-right">
+            <div id="cp-right-info">
+                <h1>هنرستان علامه دوانی</h1>
+                <div></div>
+                <p>حسین فرهانی عزیز به سایت هنرستان علامه دوانی خوش آمدید</p>
             </div>
-            <div class="boxes-left">
-                <a href="" id="cb-3" class="class-box">دوازدهم</a>
-                <a href="" id="cb-4" class="class-box">فرادرس</a>
+        </div>
+        <div id="cp-left">
+            <img id="info-img" src="images/home.png" alt="">
+        </div>
+    </div>
+    <div class="hbd">
+        <div class="title-1">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>متولدین این هفته</h2>
+        </div>
+        <div class="hbd-box">
+            <div class="hbd-container">
+                <div class="hbd-circ">
+                    <img src="images/user.png" alt="">
+                    <p>حسین عبد فرهانی</p>
+                </div>
+                <div class="hbd-circ">
+                    <img src="images/user.png" alt="">
+                    <p>حسین عبد فرهانی</p>
+                </div>
+                <div class="hbd-circ">
+                    <img src="images/user.png" alt="">
+                    <p>حسین عبد فرهانی</p>
+                </div>
+                <div class="hbd-circ">
+                    <img src="images/user.png" alt="">
+                    <p>حسین عبد فرهانی</p>
+                </div>
+                <div class="hbd-circ">
+                    <img src="images/user.png" alt="">
+                    <p>حسین عبد فرهانی</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="cart-container">
         <div class="title-4">
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <h2>آزمون ها</h1>
+            <div class="title-h2">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <h2>اخبار</h1>
+            </div>
+            <a id="more" href="">
+                <p>
+                    مشاهده بیشتر
+                </p>
+                <img src="images/arrow" alt="">
+            </a>
         </div>
 
         <img onclick="c_a_left()" id="c-a-left" src="images/arrow.png" alt="arrow" title="arrow">
@@ -51,12 +84,15 @@
             <div class="t-carts">
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <div class="opacity"></div>
-                        <h1>HTML</h1>
+                        <img src="images/news.png" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>آزمون های HTML</h1>
-                        <p>یه سری توضیاحات مربوط به آزمون ها</p>
+                        <h1>خبر اول - تایتل</h1>
+                        <p>
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                        </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
@@ -69,12 +105,15 @@
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <div class="opacity"></div>
-                        <h1>CSS</h1>
+                        <img src="images/news.png" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>آزمون های CSS</h1>
-                        <p>یه سری توضیاحات مربوط به آزمون ها</p>
+                        <h1>خبر دوم - تایتل</h1>
+                        <p>
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                        </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
@@ -87,12 +126,15 @@
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <div class="opacity"></div>
-                        <h1>JS</h1>
+                        <img src="images/news.png" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>آزمون های JS</h1>
-                        <p>یه سری توضیاحات مربوط به آزمون ها</p>
+                        <h1>خبر سوم - تایتل</h1>
+                        <p>
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                        </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
@@ -105,12 +147,15 @@
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <div class="opacity"></div>
-                        <h1>PHP</h1>
+                        <img src="images/news.png" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>آزمون های PHP</h1>
-                        <p>یه سری توضیاحات مربوط به آزمون ها</p>
+                        <h1>خبر چهارم - تایتل</h1>
+                        <p>
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                        </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
@@ -123,12 +168,18 @@
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <div class="opacity"></div>
-                        <h1>#C</h1>
+                        <img src="images/news.png" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>آزمون های #C</h1>
-                        <p>یه سری توضیاحات مربوط به آزمون ها</p>
+                        <h1>خبر پنجم - تایتل</h1>
+                        <p>
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                            یه سری توضیاحات مربوط به خبر
+                        </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
@@ -151,11 +202,37 @@
         </div>
         <img onclick="c_a_right()" id="c-a-right" src="images/arrow.png" alt="arrow" title="arrow">
     </div>
+    <div class="class">
+        <div class="title-2">
+            <div class="title-h2">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <h1>دسته بندی دوره ها</h1>
+            </div>
+        </div>
+        <div class="class-boxes">
+            <div class="boxes-right">
+                <a href="" id="cb-1" class="class-box">دهم</a>
+                <a href="" id="cb-2" class="class-box">یازدهم</a>
+            </div>
+            <div class="boxes-left">
+                <a href="" id="cb-3" class="class-box">دوازدهم</a>
+                <a href="" id="cb-4" class="class-box">فرادرس</a>
+            </div>
+        </div>
+    </div>
     <div class="gallery">
         <div class="gallery-top">
             <div class="title-3">
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <h2>گالری هنرستان</h2>
+                <div class="title-h2">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <h2>گالری هنرستان</h2>
+                </div>
+                <a id="more" href="info.php#scroll-gallery">
+                    <p>
+                        مشاهده بیشتر
+                    </p>
+                    <img src="images/arrow" alt="">
+                </a>
             </div>
         </div>
         <div class="slider" id="slider">
