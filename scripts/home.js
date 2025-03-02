@@ -1,7 +1,6 @@
 // nav scroll anim
-const container = document.querySelector('.hbd-container');
-container.scrollLeft = container.scrollWidth; // اسکرول به انتهای عرضی
-
+// const container = document.querySelector('.hbd-container');
+// container.scrollLeft = container.scrollWidth; // اسکرول به انتهای عرضی
 
 // image slider
 
@@ -221,13 +220,13 @@ function c_a_left() {
     document.querySelector(".t-carts").style.translate = "0px";
   }
   if (arrow_cart == 2) {
-    document.querySelector(".t-carts").style.translate = "400px";
+    document.querySelector(".t-carts").style.translate = "450px";
   }
   if (arrow_cart == 3) {
-    document.querySelector(".t-carts").style.translate = "800px";
+    document.querySelector(".t-carts").style.translate = "900px";
   }
   if (arrow_cart == 4) {
-    document.querySelector(".t-carts").style.translate = "1200px";
+    document.querySelector(".t-carts").style.translate = "1350px";
   }
 }
 function c_a_right() {
@@ -242,13 +241,13 @@ function c_a_right() {
     document.querySelector(".t-carts").style.translate = "0px";
   }
   if (arrow_cart == 2) {
-    document.querySelector(".t-carts").style.translate = "400px";
+    document.querySelector(".t-carts").style.translate = "450px";
   }
   if (arrow_cart == 3) {
-    document.querySelector(".t-carts").style.translate = "800px";
+    document.querySelector(".t-carts").style.translate = "900px";
   }
   if (arrow_cart == 4) {
-    document.querySelector(".t-carts").style.translate = "1200px";
+    document.querySelector(".t-carts").style.translate = "1350px";
   }
 }
 
@@ -264,16 +263,16 @@ function c_a_left_2() {
     document.querySelector(".t-carts").style.translate = "0px";
   }
   if (arrow_cart == 2) {
-    document.querySelector(".t-carts").style.translate = "400px";
+    document.querySelector(".t-carts").style.translate = "450px";
   }
   if (arrow_cart == 3) {
-    document.querySelector(".t-carts").style.translate = "800px";
+    document.querySelector(".t-carts").style.translate = "900px";
   }
   if (arrow_cart == 4) {
-    document.querySelector(".t-carts").style.translate = "1200px";
+    document.querySelector(".t-carts").style.translate = "1350px";
   }
   if (arrow_cart == 5) {
-    document.querySelector(".t-carts").style.translate = "1600px";
+    document.querySelector(".t-carts").style.translate = "1800px";
   }
 }
 function c_a_right_2() {
@@ -288,24 +287,24 @@ function c_a_right_2() {
     document.querySelector(".t-carts").style.translate = "0px";
   }
   if (arrow_cart == 2) {
-    document.querySelector(".t-carts").style.translate = "400px";
+    document.querySelector(".t-carts").style.translate = "450px";
   }
   if (arrow_cart == 3) {
-    document.querySelector(".t-carts").style.translate = "800px";
+    document.querySelector(".t-carts").style.translate = "900px";
   }
   if (arrow_cart == 4) {
-    document.querySelector(".t-carts").style.translate = "1200px";
+    document.querySelector(".t-carts").style.translate = "1350px";
   }
   if (arrow_cart == 5) {
-    document.querySelector(".t-carts").style.translate = "1600px";
+    document.querySelector(".t-carts").style.translate = "1800px";
   }
 }
 
 web_width = screen.width;
 
-if (web_width >= 768) {
+if (web_width >= 900) {
   setInterval(c_a_left, 2500);
-} else if (web_width <= 768) {
+} else if (web_width <= 900) {
   setInterval(c_a_left_2, 2500);
 }
 

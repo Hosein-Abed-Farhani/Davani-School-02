@@ -97,9 +97,9 @@
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <p>تعداد آزمون ها</p>
-                            <span>:</span>
-                            <span id="span-bt">121</span>
+                            <span id="span-bt">7:30</span>
+                            <span>-</span>
+                            <p>1403/11/12</p>
                         </div>
                     </div>
                 </a>
@@ -118,9 +118,9 @@
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <p>تعداد آزمون ها</p>
-                            <span>:</span>
-                            <span id="span-bt">121</span>
+                            <span id="span-bt">7:30</span>
+                            <span>-</span>
+                            <p>1403/11/12</p>
                         </div>
                     </div>
                 </a>
@@ -139,9 +139,9 @@
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <p>تعداد آزمون ها</p>
-                            <span>:</span>
-                            <span id="span-bt">121</span>
+                            <span id="span-bt">7:30</span>
+                            <span>-</span>
+                            <p>1403/11/12</p>
                         </div>
                     </div>
                 </a>
@@ -160,9 +160,9 @@
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <p>تعداد آزمون ها</p>
-                            <span>:</span>
-                            <span id="span-bt">121</span>
+                            <span id="span-bt">7:30</span>
+                            <span>-</span>
+                            <p>1403/11/12</p>
                         </div>
                     </div>
                 </a>
@@ -184,9 +184,9 @@
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <p>تعداد آزمون ها</p>
-                            <span>:</span>
-                            <span id="span-bt">121</span>
+                            <span id="span-bt">7:30</span>
+                            <span>-</span>
+                            <p>1403/11/12</p>
                         </div>
                     </div>
                 </a>
