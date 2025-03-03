@@ -75,7 +75,7 @@
                 <p>
                     مشاهده بیشتر
                 </p>
-                <img src="images/arrow" alt="">
+                <img src="images/arrow.png" alt="">
             </a>
         </div>
 
@@ -231,7 +231,7 @@
                     <p>
                         مشاهده بیشتر
                     </p>
-                    <img src="images/arrow" alt="">
+                    <img src="images/arrow.png" alt="">
                 </a>
             </div>
         </div>
