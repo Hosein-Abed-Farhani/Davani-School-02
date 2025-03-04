@@ -24,6 +24,9 @@
 
     <!-- content start -->
     <div class="clip-path">
+        <div id="cp-left">
+            <img id="info-img" src="images/home.png" alt="">
+        </div>
         <div id="cp-right">
             <div id="cp-right-info">
                 <h1>هنرستان علامه دوانی</h1>
@@ -31,15 +34,12 @@
                 <p>حسین فرهانی عزیز به سایت هنرستان علامه دوانی خوش آمدید</p>
             </div>
         </div>
-        <div id="cp-left">
-            <img id="info-img" src="images/home.png" alt="">
-        </div>
+    </div>
+    <div class="title-1">
+        <i class="fa fa-circle" aria-hidden="true"></i>
+        <h2>متولدین این هفته</h2>
     </div>
     <div class="hbd">
-        <div class="title-1">
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <h2>متولدین این هفته</h2>
-        </div>
         <div class="hbd-box">
             <div class="hbd-container">
                 <div class="hbd-circ">
@@ -65,20 +65,19 @@
             </div>
         </div>
     </div>
-    <div class="cart-container">
-        <div class="title-4">
-            <div class="title-h2">
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <h2>اخبار</h1>
-            </div>
-            <a id="more" href="">
-                <p>
-                    مشاهده بیشتر
-                </p>
-                <img src="images/arrow.png" alt="">
-            </a>
+    <div class="title-4">
+        <div class="title-h2">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>اخبار</h1>
         </div>
-
+        <a id="more" href="">
+            <p>
+                مشاهده بیشتر
+            </p>
+            <img src="images/arrow.png" alt="">
+        </a>
+    </div>
+    <div class="cart-container">
         <img onclick="c_a_left()" id="c-a-left" src="images/arrow.png" alt="arrow" title="arrow">
         <div class="test-carts">
             <div class="t-carts">
@@ -202,13 +201,13 @@
         </div>
         <img onclick="c_a_right()" id="c-a-right" src="images/arrow.png" alt="arrow" title="arrow">
     </div>
-    <div class="class">
-        <div class="title-2">
-            <div class="title-h2">
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <h1>دسته بندی دوره ها</h1>
-            </div>
+    <div class="title-2">
+        <div class="title-h2">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>دسته بندی دوره ها</h2>
         </div>
+    </div>
+    <div class="class">
         <div class="class-boxes">
             <div class="boxes-right">
                 <a href="" id="cb-1" class="class-box">دهم</a>
@@ -220,20 +219,20 @@
             </div>
         </div>
     </div>
+    <div class="title-3">
+        <div class="title-h2">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>گالری هنرستان</h2>
+        </div>
+        <a id="more" href="info.php#scroll-gallery">
+            <p>
+                مشاهده بیشتر
+            </p>
+            <img src="images/arrow.png" alt="">
+        </a>
+    </div>
     <div class="gallery">
         <div class="gallery-top">
-            <div class="title-3">
-                <div class="title-h2">
-                    <i class="fa fa-circle" aria-hidden="true"></i>
-                    <h2>گالری هنرستان</h2>
-                </div>
-                <a id="more" href="info.php#scroll-gallery">
-                    <p>
-                        مشاهده بیشتر
-                    </p>
-                    <img src="images/arrow.png" alt="">
-                </a>
-            </div>
         </div>
         <div class="slider" id="slider">
             <div class="slide-box">

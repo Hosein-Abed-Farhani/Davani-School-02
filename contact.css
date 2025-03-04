@@ -19,6 +19,8 @@ body {
 .content {
   width: 100%;
   max-width: 1900px;
+  display: flex;
+  flex-flow: column;
   align-self: center;
 }
 
@@ -206,6 +208,7 @@ body {
   align-items: center;
   align-self: center;
   width: 85%;
+  align-self: center;
   margin-top: 150px;
   margin-bottom: 70px;
 }
@@ -229,6 +232,7 @@ body {
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  margin-bottom: 50px;
 }
 
 .map.active {
@@ -493,6 +497,15 @@ body {
   }
   .content-contact p {
     font-size: 18px;
+  }
+  .title-1 {
+    margin-bottom: 50px;
+  }
+  .title-1 h2{
+    font-size: 20px;
+  }
+  .title-1 i{
+    font-size: 14px;
   }
 }
 

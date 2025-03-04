@@ -39,11 +39,11 @@
                 <img id="info-img" src="images/info.png" alt="">
             </div>
         </div>
+        <div class="title-1">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>مدیریت هنرستان</h2>
+        </div>
         <div class="web-info">
-            <div class="title-info-box-2">
-                <div></div>
-                <h1>مدیریت هنرستان</h1>
-            </div>
             <div id="web-box-1" class="web-box">
                 <div class="web-div-images">
                     <img src="images/modir.png" alt="" class="web-info-img">
@@ -134,9 +134,9 @@
                 </div>
             </div>
         </div>
-        <div class="title-info-box">
-            <div></div>
-            <h1>درباره هنرستان</h1>
+        <div class="title-2">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>درباره هنرستان</h2>
         </div>
         <div class="davani-info">
             <div id="dav-box-1" class="davani-box">
@@ -181,12 +181,12 @@
                 </div>
             </div>
         </div>
+        <div class="title-3">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>گالری هنرستان</h2>
+        </div>
         <div class="gallery" id="gallery">
             <div class="gallery-top">
-                <div class="title-info-box">
-                    <div></div>
-                    <h1>گالری هنرستان</h1>
-                </div>
             </div>
             <div id="scroll-gallery"></div>
             <div class="slider" id="slider">

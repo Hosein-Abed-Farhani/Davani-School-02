@@ -34,6 +34,7 @@ body {
   flex-flow: row-reverse;
   margin-top: 60px;
   max-width: 1900px;
+  transform: rotateY(180deg);
 }
 
 #cp-left {
@@ -42,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotateY(180deg);
 }
 
 #cp-right {
@@ -53,6 +55,7 @@ body {
   flex-flow: column;
   rotate: 180deg;
   text-align: center;
+  transform: rotateY(180deg);
 }
 
 #cp-right-info {
@@ -98,7 +101,6 @@ body {
   }
 }
 .hbd {
-  margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -338,7 +340,8 @@ body {
   align-items: center;
   align-self: center;
   width: 85%;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .title-1 h2 {
@@ -357,25 +360,28 @@ body {
   justify-content: space-between;
   align-self: start;
   width: 85%;
+  align-self: center;
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .title-3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 85%;
+  align-self: center;
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .title-4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  align-self: center;
+  width: 85%;
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .title-h2 h2 {
   font-size: 24px;
@@ -987,10 +993,6 @@ body {
   .boxes-left {
     margin-top: 20px;
   }
-  .title-1 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
   .container {
     width: 95%;
   }
@@ -1012,6 +1014,48 @@ body {
   #more {
     align-self: end;
     margin-top: 7px;
+  }
+  .title-1 {
+    margin-bottom: 50px;
+  }
+  .title-2 {
+    margin-bottom: 50px;
+  }
+  .title-3 {
+    margin-bottom: 50px;
+  }
+  .title-4 {
+    margin-bottom: 50px;
+  }
+  .title-1 h2{
+    font-size: 20px;
+  }
+  .title-1 i{
+    font-size: 14px;
+  }
+  .title-2 h2{
+    font-size: 20px;
+  }
+  .title-2 i{
+    font-size: 14px;
+  }
+  .title-3 h2{
+    font-size: 20px;
+  }
+  .title-3 i{
+    font-size: 14px;
+  }
+  .title-4 h2{
+    font-size: 20px;
+  }
+  .title-4 i{
+    font-size: 14px;
+  }
+  #more p{
+    font-size: 18px;
+  }
+  #more img{
+    width: 30px;
   }
 }
 
@@ -1042,6 +1086,7 @@ body {
   .t-cart {
     width: 100%;
   }
+          
 }
 
 /* responsive start */

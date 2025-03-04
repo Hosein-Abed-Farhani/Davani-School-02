@@ -12,7 +12,8 @@ body {
   width: 85%;
   height: auto;
   padding: 20px;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 50px;
   display: flex;
   align-self: center;
   flex-flow: column;
@@ -123,6 +124,10 @@ body {
 /* responsive start */
 
 @media screen and (max-width: 1000px) {
+  .container{
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
   .container-bottom {
     flex-flow: column;
     align-items: center;
@@ -146,6 +151,17 @@ body {
   .container-left {
     margin-right: 100px;
   }
+
+  .cl-info h2 {
+    font-size: 18px;
+  }
+  .cl-info span {
+    font-size: 18px;
+  }
+  .cl-info p {
+    font-size: 18px;
+  }
+
   #last-cl-info p {
     margin-top: 7px;
     font-size: 16px;
@@ -161,7 +177,7 @@ body {
   .container-left {
     margin-right: 20px;
   }
-  #first-cl-info{
+  #first-cl-info {
     margin-top: 50px;
   }
 }

@@ -80,11 +80,11 @@
                 </div>
             </div>
         </div>
+        <div class="title-1">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <h2>لوکیشن هنرستان</h2>
+        </div>
         <div class="map">
-            <div class="title-1">
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <h2>لوکیشن هنرستان</h2>
-            </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.0814077510847!2d48.26140916930205!3d30.36726723400888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc44f8e144c00d3%3A0xa96f9e187f66db17!2z2YfZhtix2LPYqtin2YYg2YHZhtuMINi52YTYp9mF2Ycg2K_ZiNin2YbbjC4!5e0!3m2!1sfa!2s!4v1738443334673!5m2!1sfa!2s"
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

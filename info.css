@@ -21,6 +21,8 @@ body {
   overflow: hidden;
   max-width: 1900px;
   align-self: center;
+  display: flex;
+  flex-flow: column;
 }
 
 .clip-path {
@@ -84,47 +86,63 @@ body {
   }
 }
 
-.title-info-box {
-  width: 100%;
+.title-1 {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  align-self: center;
+  width: 85%;
+  align-self: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.title-1 h2 {
+  font-size: 24px;
+}
+.title-1 i {
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 9px;
+  margin-right: 9px
+}
+
+.title-2 {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 85%;
+  align-self: center;
   margin-top: 150px;
   margin-bottom: 70px;
 }
-.title-info-box div {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #54c459;
-  margin-right: 5%;
-  margin-bottom: 1px;
+.title-2 h2 {
+  font-size: 24px;
 }
-.title-info-box h1 {
-  font-size: 25px;
-  margin-right: 12px;
+.title-2 i {
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 9px;
+  margin-right: 9px
+}
+.title-3 {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 85%;
+  align-self: center;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.title-3 h2 {
+  font-size: 24px;
+}
+.title-3 i {
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 9px;
+  margin-right: 9px
 }
 
-.title-info-box-2 {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-.title-info-box-2 div {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #54c459;
-  margin-right: 5%;
-  margin-bottom: 1px;
-}
-.title-info-box-2 h1 {
-  font-size: 25px;
-  margin-right: 12px;
-}
 
 #info-box-1,
 #info-box-2 {
@@ -276,7 +294,6 @@ body {
   display: flex;
   align-items: center;
   flex-flow: column;
-  margin-top: 100px;
 }
 
 .web-box {
@@ -685,6 +702,42 @@ body {
   #next,
   #back {
     top: 38%;
+  }
+  .title-1 {
+    margin-bottom: 50px;
+  }
+  .title-1 h2{
+    font-size: 20px;
+  }
+  .title-1 i{
+    font-size: 14px;
+  }
+  .title-1 {
+    margin-bottom: 50px;
+  }
+  .title-2 {
+    margin-bottom: 50px;
+  }
+  .title-3 {
+    margin-bottom: 50px;
+  }
+  .title-1 h2{
+    font-size: 20px;
+  }
+  .title-1 i{
+    font-size: 14px;
+  }
+  .title-2 h2{
+    font-size: 20px;
+  }
+  .title-2 i{
+    font-size: 14px;
+  }
+  .title-3 h2{
+    font-size: 20px;
+  }
+  .title-3 i{
+    font-size: 14px;
   }
 }
 
