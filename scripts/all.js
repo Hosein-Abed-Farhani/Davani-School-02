@@ -89,3 +89,21 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(box);
   });
 });
+
+screen_width = screen.width;
+
+if (screen_width >= 1024) {
+  document
+    .getElementById("phone_num")
+    .addEventListener("click", function (event) {
+      const phoneNumber = "09373571877";
+      navigator.clipboard
+        .writeText(phoneNumber)
+        .then(function () {
+          alert("شماره تلفن کپی شد : " + "" + phoneNumber);
+        })
+        .catch(function (err) {
+          console.error("خطا در کپی کردن شماره تلفن: ", err);
+        });
+    });
+}

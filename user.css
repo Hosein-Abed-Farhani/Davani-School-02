@@ -1,13 +1,5 @@
 /* content start */
 
-body {
-  background: rgb(233, 233, 233);
-  transition: 300ms ease-out;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-}
-
 .container {
   width: 85%;
   height: auto;

@@ -8,15 +8,6 @@
 
 /* content start */
 
-body {
-  background: rgb(233, 233, 233);
-  transition: 300ms ease-out;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  overflow-x: hidden;
-}
-
 .content {
   width: 100%;
   max-width: 1900px;
@@ -85,7 +76,7 @@ body {
 #cp-right-info div {
   background: #43a047;
   align-self: center;
-  width: 270px;
+  width: 230px;
   height: 5px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -1027,34 +1018,34 @@ body {
   .title-4 {
     margin-bottom: 50px;
   }
-  .title-1 h2{
+  .title-1 h2 {
     font-size: 20px;
   }
-  .title-1 i{
+  .title-1 i {
     font-size: 14px;
   }
-  .title-2 h2{
+  .title-2 h2 {
     font-size: 20px;
   }
-  .title-2 i{
+  .title-2 i {
     font-size: 14px;
   }
-  .title-3 h2{
+  .title-3 h2 {
     font-size: 20px;
   }
-  .title-3 i{
+  .title-3 i {
     font-size: 14px;
   }
-  .title-4 h2{
+  .title-4 h2 {
     font-size: 20px;
   }
-  .title-4 i{
+  .title-4 i {
     font-size: 14px;
   }
-  #more p{
+  #more p {
     font-size: 18px;
   }
-  #more img{
+  #more img {
     width: 30px;
   }
 }
@@ -1086,7 +1077,6 @@ body {
   .t-cart {
     width: 100%;
   }
-          
 }
 
 /* responsive start */

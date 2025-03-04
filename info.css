@@ -8,15 +8,6 @@
 
 /* content start */
 
-body {
-  background: rgb(233, 233, 233);
-  transition: 300ms ease-out;
-  width: 100%;
-  overflow-x: hidden;
-  display: flex;
-  flex-flow: column;
-}
-
 .content {
   overflow: hidden;
   max-width: 1900px;
@@ -713,7 +704,7 @@ body {
     font-size: 14px;
   }
   .title-1 {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   .title-2 {
     margin-bottom: 50px;

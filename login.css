@@ -31,6 +31,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .body {
   display: flex;
@@ -106,7 +109,7 @@ body {
   font-size: 30px;
   margin-top: 20px;
 }
-#p{
+#p {
   margin-top: 5px;
 }
 
@@ -147,14 +150,13 @@ body {
   margin-top: 15px;
 }
 
-#user_name{
+#user_name {
   margin-top: 50px;
 }
 
 .bl-center input:focus {
   border-bottom: 1px solid black;
 }
-
 
 #login-btn {
   width: 80%;
@@ -169,7 +171,7 @@ body {
   margin-top: 30px;
 }
 
-.bl-bottom{
+.bl-bottom {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -187,7 +189,7 @@ body {
   border-radius: 20px;
 }
 
-#captcha{
+#captcha {
   width: 60%;
   margin-top: 22px;
 }

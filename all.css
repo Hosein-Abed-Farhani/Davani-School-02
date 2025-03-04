@@ -5,12 +5,22 @@
 @font-face {
   font-family: yekan;
   src: url(fonts/Yekan-Bakh-FaNum-07-Heavy.woff);
-} 
+}
 * {
   padding: 0;
   margin: 0;
   font-family: peyda;
   font-size: 16px;
+}
+
+body {
+  background: rgb(233, 233, 233);
+  transition: 300ms ease-out;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
 }
 
 @keyframes top-anim-right {
