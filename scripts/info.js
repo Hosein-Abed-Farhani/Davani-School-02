@@ -92,34 +92,50 @@ function slide_func() {
   document.querySelector("#image-3").style.display = "none";
   document.querySelector("#image-4").style.display = "none";
   document.querySelector("#image-5").style.display = "none";
+  document.querySelector("#image-6").style.display = "none";
+  document.querySelector("#image-7").style.display = "none";
+  document.querySelector("#image-8").style.display = "none";
+  document.querySelector("#image-9").style.display = "none";
   document.querySelector("#circle-1").style.background = "none";
   document.querySelector("#circle-2").style.background = "none";
   document.querySelector("#circle-3").style.background = "none";
   document.querySelector("#circle-4").style.background = "none";
   document.querySelector("#circle-5").style.background = "none";
+  document.querySelector("#circle-6").style.background = "none";
+  document.querySelector("#circle-7").style.background = "none";
+  document.querySelector("#circle-8").style.background = "none";
+  document.querySelector("#circle-9").style.background = "none";
   document.querySelector("#circle-1").style.width = "20%";
   document.querySelector("#circle-2").style.width = "20%";
   document.querySelector("#circle-3").style.width = "20%";
   document.querySelector("#circle-4").style.width = "20%";
   document.querySelector("#circle-5").style.width = "20%";
+  document.querySelector("#circle-6").style.width = "20%";
+  document.querySelector("#circle-7").style.width = "20%";
+  document.querySelector("#circle-8").style.width = "20%";
+  document.querySelector("#circle-9").style.width = "20%";
   document.querySelector("#circle-1").style.borderRadus = "50%";
   document.querySelector("#circle-2").style.borderRadus = "50%";
   document.querySelector("#circle-3").style.borderRadus = "50%";
   document.querySelector("#circle-4").style.borderRadus = "50%";
   document.querySelector("#circle-5").style.borderRadus = "50%";
+  document.querySelector("#circle-6").style.borderRadus = "50%";
+  document.querySelector("#circle-7").style.borderRadus = "50%";
+  document.querySelector("#circle-8").style.borderRadus = "50%";
+  document.querySelector("#circle-9").style.borderRadus = "50%";
 }
 
 let img_num = 1;
 function next() {
   img_num++;
-  if (img_num == 6) {
+  if (img_num == 10) {
     img_num = 1;
   }
 
   if (img_num == 1) {
     slide_func();
     document.querySelector("#image-1").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "1/5";
+    document.querySelector("#p-slide").innerHTML = "1/9";
     document.querySelector("#circle-1").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-1").style.width = "50%";
     document.querySelector("#circle-1").style.borderRadius = "15px";
@@ -128,7 +144,7 @@ function next() {
   if (img_num == 2) {
     slide_func();
     document.querySelector("#image-2").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "2/5";
+    document.querySelector("#p-slide").innerHTML = "2/9";
     document.querySelector("#circle-2").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-2").style.width = "50%";
     document.querySelector("#circle-2").style.borderRadius = "15px";
@@ -137,7 +153,7 @@ function next() {
   if (img_num == 3) {
     slide_func();
     document.querySelector("#image-3").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "3/5";
+    document.querySelector("#p-slide").innerHTML = "3/9";
     document.querySelector("#circle-3").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-3").style.width = "50%";
     document.querySelector("#circle-3").style.borderRadius = "15px";
@@ -146,7 +162,7 @@ function next() {
   if (img_num == 4) {
     slide_func();
     document.querySelector("#image-4").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "4/5";
+    document.querySelector("#p-slide").innerHTML = "4/9";
     document.querySelector("#circle-4").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-4").style.width = "50%";
     document.querySelector("#circle-4").style.borderRadius = "15px";
@@ -155,23 +171,55 @@ function next() {
   if (img_num == 5) {
     slide_func();
     document.querySelector("#image-5").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "5/5";
+    document.querySelector("#p-slide").innerHTML = "5/9";
     document.querySelector("#circle-5").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-5").style.width = "50%";
     document.querySelector("#circle-5").style.borderRadius = "15px";
+  }
+  if (img_num == 6) {
+    slide_func();
+    document.querySelector("#image-6").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "6/9";
+    document.querySelector("#circle-6").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-6").style.width = "50%";
+    document.querySelector("#circle-6").style.borderRadius = "15px";
+  }
+  if (img_num == 7) {
+    slide_func();
+    document.querySelector("#image-7").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "7/9";
+    document.querySelector("#circle-7").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-7").style.width = "50%";
+    document.querySelector("#circle-7").style.borderRadius = "15px";
+  }
+  if (img_num == 8) {
+    slide_func();
+    document.querySelector("#image-8").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "8/9";
+    document.querySelector("#circle-8").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-8").style.width = "50%";
+    document.querySelector("#circle-8").style.borderRadius = "15px";
+  }
+  if (img_num == 9) {
+    slide_func();
+    document.querySelector("#image-9").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "9/";
+    document.querySelector("#circle-9").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-9").style.width = "50%";
+    document.querySelector("#circle-9").style.borderRadius = "15px";
   }
 }
 
 function back() {
   img_num--;
   if (img_num == 0) {
-    img_num = 5;
+    img_num = 9;
   }
 
   if (img_num == 1) {
     slide_func();
     document.querySelector("#image-1").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "1/5";
+    document.querySelector("#p-slide").innerHTML = "1/9";
     document.querySelector("#circle-1").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-1").style.width = "50%";
     document.querySelector("#circle-1").style.borderRadius = "15px";
@@ -180,7 +228,7 @@ function back() {
   if (img_num == 2) {
     slide_func();
     document.querySelector("#image-2").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "2/5";
+    document.querySelector("#p-slide").innerHTML = "2/9";
     document.querySelector("#circle-2").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-2").style.width = "50%";
     document.querySelector("#circle-2").style.borderRadius = "15px";
@@ -189,7 +237,7 @@ function back() {
   if (img_num == 3) {
     slide_func();
     document.querySelector("#image-3").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "3/5";
+    document.querySelector("#p-slide").innerHTML = "3/9";
     document.querySelector("#circle-3").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-3").style.width = "50%";
     document.querySelector("#circle-3").style.borderRadius = "15px";
@@ -198,7 +246,7 @@ function back() {
   if (img_num == 4) {
     slide_func();
     document.querySelector("#image-4").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "4/5";
+    document.querySelector("#p-slide").innerHTML = "4/9";
     document.querySelector("#circle-4").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-4").style.width = "50%";
     document.querySelector("#circle-4").style.borderRadius = "15px";
@@ -207,10 +255,42 @@ function back() {
   if (img_num == 5) {
     slide_func();
     document.querySelector("#image-5").style.display = "block";
-    document.querySelector("#p-slide").innerHTML = "5/5";
+    document.querySelector("#p-slide").innerHTML = "5/9";
     document.querySelector("#circle-5").style.background = "rgb(70, 199, 99)";
     document.querySelector("#circle-5").style.width = "50%";
     document.querySelector("#circle-5").style.borderRadius = "15px";
+  }
+  if (img_num == 6) {
+    slide_func();
+    document.querySelector("#image-6").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "6/9";
+    document.querySelector("#circle-6").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-6").style.width = "50%";
+    document.querySelector("#circle-6").style.borderRadius = "15px";
+  }
+  if (img_num == 7) {
+    slide_func();
+    document.querySelector("#image-7").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "7/9";
+    document.querySelector("#circle-7").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-7").style.width = "50%";
+    document.querySelector("#circle-7").style.borderRadius = "15px";
+  }
+  if (img_num == 8) {
+    slide_func();
+    document.querySelector("#image-8").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "8/9";
+    document.querySelector("#circle-8").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-8").style.width = "50%";
+    document.querySelector("#circle-8").style.borderRadius = "15px";
+  }
+  if (img_num == 9) {
+    slide_func();
+    document.querySelector("#image-9").style.display = "block";
+    document.querySelector("#p-slide").innerHTML = "9/";
+    document.querySelector("#circle-9").style.background = "rgb(70, 199, 99)";
+    document.querySelector("#circle-9").style.width = "50%";
+    document.querySelector("#circle-9").style.borderRadius = "15px";
   }
 }
 
@@ -222,7 +302,7 @@ function cir_1() {
   img_num = 1;
   slide_func();
   document.querySelector("#image-1").style.display = "block";
-  document.querySelector("#p-slide").innerHTML = "1/5";
+  document.querySelector("#p-slide").innerHTML = "1/9";
   document.querySelector("#circle-1").style.background = "rgb(70, 199, 99)";
   document.querySelector("#circle-1").style.width = "50%";
   document.querySelector("#circle-1").style.borderRadius = "15px";
@@ -231,7 +311,7 @@ function cir_2() {
   img_num = 2;
   slide_func();
   document.querySelector("#image-2").style.display = "block";
-  document.querySelector("#p-slide").innerHTML = "2/5";
+  document.querySelector("#p-slide").innerHTML = "2/9";
   document.querySelector("#circle-2").style.background = "rgb(70, 199, 99)";
   document.querySelector("#circle-2").style.width = "50%";
   document.querySelector("#circle-2").style.borderRadius = "15px";
@@ -240,7 +320,7 @@ function cir_3() {
   img_num = 3;
   slide_func();
   document.querySelector("#image-3").style.display = "block";
-  document.querySelector("#p-slide").innerHTML = "3/5";
+  document.querySelector("#p-slide").innerHTML = "3/9";
   document.querySelector("#circle-3").style.background = "rgb(70, 199, 99)";
   document.querySelector("#circle-3").style.width = "50%";
   document.querySelector("#circle-3").style.borderRadius = "15px";
@@ -249,7 +329,7 @@ function cir_4() {
   img_num = 4;
   slide_func();
   document.querySelector("#image-4").style.display = "block";
-  document.querySelector("#p-slide").innerHTML = "4/5";
+  document.querySelector("#p-slide").innerHTML = "4/9";
   document.querySelector("#circle-4").style.background = "rgb(70, 199, 99)";
   document.querySelector("#circle-4").style.width = "50%";
   document.querySelector("#circle-4").style.borderRadius = "15px";
@@ -258,10 +338,43 @@ function cir_5() {
   img_num = 5;
   slide_func();
   document.querySelector("#image-5").style.display = "block";
-  document.querySelector("#p-slide").innerHTML = "5/5";
+  document.querySelector("#p-slide").innerHTML = "5/9";
   document.querySelector("#circle-5").style.background = "rgb(70, 199, 99)";
   document.querySelector("#circle-5").style.width = "50%";
   document.querySelector("#circle-5").style.borderRadius = "15px";
+}
+function cir_6() {
+  img_num = 6;
+  slide_func();
+  document.querySelector("#image-6").style.display = "block";
+  document.querySelector("#p-slide").innerHTML = "6/9";
+  document.querySelector("#circle-6").style.background = "rgb(70, 199, 99)";
+  document.querySelector("#circle-6").style.width = "50%";
+  document.querySelector("#circle-6").style.borderRadius = "15px";
+}function cir_7() {
+  img_num = 7;
+  slide_func();
+  document.querySelector("#image-7").style.display = "block";
+  document.querySelector("#p-slide").innerHTML = "7/9";
+  document.querySelector("#circle-7").style.background = "rgb(70, 199, 99)";
+  document.querySelector("#circle-7").style.width = "50%";
+  document.querySelector("#circle-7").style.borderRadius = "15px";
+}function cir_8() {
+  img_num = 8;
+  slide_func();
+  document.querySelector("#image-8").style.display = "block";
+  document.querySelector("#p-slide").innerHTML = "8/9";
+  document.querySelector("#circle-8").style.background = "rgb(70, 199, 99)";
+  document.querySelector("#circle-8").style.width = "50%";
+  document.querySelector("#circle-8").style.borderRadius = "15px";
+}function cir_9() {
+  img_num = 9;
+  slide_func();
+  document.querySelector("#image-9").style.display = "block";
+  document.querySelector("#p-slide").innerHTML = "9/9";
+  document.querySelector("#circle-9").style.background = "rgb(70, 199, 99)";
+  document.querySelector("#circle-9").style.width = "50%";
+  document.querySelector("#circle-9").style.borderRadius = "15px";
 }
 
 // class box anim

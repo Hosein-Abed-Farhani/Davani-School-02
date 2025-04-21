@@ -450,12 +450,16 @@
 #image-2,
 #image-3,
 #image-4,
-#image-5 {
+#image-5,
+#image-6,
+#image-7,
+#image-8,
+#image-9 {
   display: none;
 }
 
 .circles {
-  width: 150px;
+  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;

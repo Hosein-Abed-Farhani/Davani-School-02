@@ -30,9 +30,9 @@
                 <div id="cp-right-info">
                     <h1>تایتل توضیحات صفحه درباره ما</h1>
                     <p>
-                       یه سری توضیحات مربوط به هنرستان و مدیر و معاونین 
-                       یه سری توضیحات مربوط به هنرستان و مدیر و معاونین 
-                       یه سری توضیحات مربوط به هنرستان و مدیر و معاونین 
+                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
+                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
+                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
                     </p>
                 </div>
             </div>
@@ -195,10 +195,18 @@
                     <img id="image-3" class="images" src="images/image-3.jpg">
                     <img id="image-4" class="images" src="images/image-4.jpg">
                     <img id="image-5" class="images" src="images/image-5.jpg">
+                    <img id="image-6" class="images" src="images/image-6.jpg">
+                    <img id="image-7" class="images" src="images/image-7.jpg">
+                    <img id="image-8" class="images" src="images/image-8.jpg">
+                    <img id="image-9" class="images" src="images/image-9.jpg">
                     <p id="p-slide">1/5</p>
                     <span id="next" onclick="next()"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
                     <span id="back" onclick="back()"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
                     <div class="circles">
+                        <div class="circle" id="circle-9" onclick="cir_9()"></div>
+                        <div class="circle" id="circle-8" onclick="cir_8()"></div>
+                        <div class="circle" id="circle-7" onclick="cir_7()"></div>
+                        <div class="circle" id="circle-6" onclick="cir_6()"></div>
                         <div class="circle" id="circle-5" onclick="cir_5()"></div>
                         <div class="circle" id="circle-4" onclick="cir_4()"></div>
                         <div class="circle" id="circle-3" onclick="cir_3()"></div>

@@ -47,20 +47,20 @@
                     <p>حسین عبد فرهانی</p>
                 </div>
                 <div class="hbd-circ">
-                    <img src="images/user.png" alt="">
-                    <p>حسین عبد فرهانی</p>
+                    <img src="images/user_2.png" alt="">
+                    <p>علیرضا سپاهیان</p>
                 </div>
                 <div class="hbd-circ">
-                    <img src="images/user.png" alt="">
-                    <p>حسین عبد فرهانی</p>
+                    <img src="images/user_3.png" alt="">
+                    <p>حسن نعمتی</p>
                 </div>
                 <div class="hbd-circ">
-                    <img src="images/user.png" alt="">
-                    <p>حسین عبد فرهانی</p>
+                    <img src="images/user_4.png" alt="">
+                    <p>عباس نواصر</p>
                 </div>
                 <div class="hbd-circ">
-                    <img src="images/user.png" alt="">
-                    <p>حسین عبد فرهانی</p>
+                    <img src="images/user_5.png" alt="">
+                    <p>رضا کعبی</p>
                 </div>
             </div>
         </div>
@@ -83,109 +83,103 @@
             <div class="t-carts">
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <img src="images/news.png" alt="">
+                        <img src="images/sorood.jpg" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>خبر اول - تایتل</h1>
+                        <h1>افتخار آفرینی دانش آموزان آبادانی</h1>
                         <p>
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
+                            کسب رتبه اول : شعر
+                            افتخاری که دانش آموزان هنرستان علامه دوانی شهرستان آبادان
+                            با مدیریت آقای مهرداد فخر آبادی
                         </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <span id="span-bt">7:30</span>
+                            <span id="span-bt">17:35</span>
                             <span>-</span>
-                            <p>1403/11/12</p>
+                            <p>1404/01/30</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <img src="images/news.png" alt="">
+                        <img src="images/sorood_2.jpg" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>خبر دوم - تایتل</h1>
+                        <h1>ورود تیم سرود به مشهد </h1>
                         <p>
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
+                            ورود دانش آموزان هنرستان علامه دوانی
+                            همراه با معاون هنرستان آقای غانمی
                         </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <span id="span-bt">7:30</span>
+                            <span id="span-bt">13:45</span>
                             <span>-</span>
-                            <p>1403/11/12</p>
+                            <p>1403/01/25</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <img src="images/news.png" alt="">
+                        <img src="images/namaaz.jpg" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>خبر سوم - تایتل</h1>
+                        <h1>تقدیر از فعالان نماز</h1>
                         <p>
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
+                            اهدای جوایز از طرف هنرستان
+                            به فعالان نماز در نمازخانه هنرستان
+                            توسط معاون و معلمین
                         </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <span id="span-bt">7:30</span>
+                            <span id="span-bt">10:00</span>
                             <span>-</span>
-                            <p>1403/11/12</p>
+                            <p>1403/11/28</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <img src="images/news.png" alt="">
+                        <img src="images/mosabeghat.jpg" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>خبر چهارم - تایتل</h1>
+                        <h1>برگزاری مسابقات</h1>
                         <p>
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
+                            برگزاری مسابقات ماست خوری ،سیب خوری ،
+                            خوانندگی ، فوت کردن آرد گفتن اعداد با یک نفس
                         </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <span id="span-bt">7:30</span>
+                            <span id="span-bt">9:30</span>
                             <span>-</span>
-                            <p>1403/11/12</p>
+                            <p>1403/11/28</p>
                         </div>
                     </div>
                 </a>
                 <a href="" class="t-cart">
                     <div class="t-c-top">
-                        <img src="images/news.png" alt="">
+                        <img src="images/rah_peymaei.jpg" alt="">
                     </div>
                     <div class="t-c-center">
-                        <h1>خبر پنجم - تایتل</h1>
+                        <h1>حضور در راهپیمایی</h1>
                         <p>
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
-                            یه سری توضیاحات مربوط به خبر
+                            حضور دانش آموزان هنرستان به همراه معاونین
+                            در راهپیمایی 22 بهمن 1403
                         </p>
                     </div>
                     <div class="top-line"></div>
                     <div class="t-c-bottom">
                         <div class="tcb-deat">
-                            <span id="span-bt">7:30</span>
+                            <span id="span-bt">11:30</span>
                             <span>-</span>
-                            <p>1403/11/12</p>
+                            <p>1403/11/22</p>
                         </div>
                     </div>
                 </a>
