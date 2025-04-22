@@ -46,7 +46,7 @@ const newObserver = new IntersectionObserver((entries) => {
 // مشاهده عناصر برای انیمیشن بر اساس عرض صفحه
 document
   .querySelectorAll(
-    "#info-boxes-1, #info-boxes-2, #info-boxes-3, #info-boxes-4"
+    "#info-boxes-1, #info-boxes-2, #info-boxes-3, #info-boxes-4, #info-boxes-5, #info-boxes-6"
   )
   .forEach((element, index) => {
     // ابتدا حالت اولیه‌ی عناصر را تنظیم کنید

@@ -32,7 +32,9 @@
                     </div>
                 </div>
             </div>
-            <div class="left"></div>
+            <div class="left">
+                <h1>هنرستان علامه دوانی</h1>
+            </div>
         </div>
         <script src="scripts/login.js"></script>
     </div>

@@ -28,11 +28,9 @@
         <div class="clip-path">
             <div id="cp-right">
                 <div id="cp-right-info">
-                    <h1>تایتل توضیحات صفحه درباره ما</h1>
+                    <h1>اطلاعات هنرستان و سایت</h1>
                     <p>
-                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
-                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
-                        یه سری توضیحات مربوط به هنرستان و مدیر و معاونین
+                        در این صفحه اطلاعات سایت و هنرستان ذکز شده است.
                     </p>
                 </div>
             </div>
@@ -51,16 +49,14 @@
                     <p>مدیر</p>
                 </div>
                 <div class="web-info-content">
-                    <img src="images/user.png" alt="" class="prof-img">
-                    <h1>نام و نام خانوادگی</h1>
-                    <p>
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
-                        یه سری اطلاعات مربوط به مدیر
+                    <img id="photoes" src="images/modir.jpg" alt="" class="prof-img">
+                    <h1>مهرداد فخر آبادی</h1>
+                    <p style="line-height: 30px;">
+                        سمت : مدیریت هنرستان
+                        <br>
+                        تحصیلات : فوق لیسانس حسبداری
+                        <br>
+                        سابقه : 32 سال
                     </p>
                 </div>
             </div>
@@ -68,33 +64,31 @@
         <div id="info-box-1">
             <div id="info-boxes-1" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="images/box-info.png" alt="">
+                    <img id="photoes" src="images/moaven_1.png" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>معاون اول</h2>
+                    <h2>احسان نکیسا</h2>
                     <p>
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
+                        سمت : سرپرست بخش فنی
+                        <br>
+                        تحصیلات : کارشناسی ارشد مهندسی کامپیوتر نرم افزار
+                        <br>
+                        سابقه : 25 سال
                     </p>
                 </div>
             </div>
             <div id="info-boxes-2" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="images/box-info.png" alt="">
+                    <img id="photoes" src="images/moaven_2.jpg" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>معاون دوم</h2>
+                    <h2>سید احمد موسوی</h2>
                     <p>
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
+                        سمت : سمت معاون فنی و مهارتی
+                        <br>
+                        تحصیلات : کارشناس ارشد حسابداری
+                        <br>
+                        سابقه : 30 سال
                     </p>
                 </div>
             </div>
@@ -102,33 +96,64 @@
         <div id="info-box-2">
             <div id="info-boxes-3" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="images/box-info.png" alt="">
+                    <img id="photoes" src="images/moaven_3.jpg" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>معاون سوم</h2>
+                    <h2>حسن کوراوند</h2>
                     <p>
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
+                        سمت : معاون اجرایی هنرستان
+                        <br>
+                        تحصیلات : کارشناس ارشد حقوق
+                        <br>
+                        سابقه : 31 سال
                     </p>
                 </div>
             </div>
             <div id="info-boxes-4" class="info-boxes">
                 <div class="boxes-right">
-                    <img src="images/box-info.png" alt="">
+                    <img id="photoes" src="images/moaven_4.jpg" alt="">
                 </div>
                 <div class="boxes-left">
-                    <h2>معاون چهارم</h2>
+                    <h2>مجتبی محمدپور</h2>
                     <p>
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
-                        یه سری اطلاعات مربوط به معاون
+                        
+                        سمت : لیسانس الکترونیک
+                        <br>
+                        تحصیلات : سرپرست بخش فنی
+                        <br>
+                        سابقه : 10 سال
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="info-box-3">
+            <div id="info-boxes-5" class="info-boxes">
+                <div class="boxes-right">
+                    <img id="photoes" src="images/user.png" alt="">
+                </div>
+                <div class="boxes-left">
+                    <h2>حسن حیاتی</h2>
+                    <p>
+                        سمت : معاون آموزشی هنرستان
+                        <br>
+                        تحصیلات : کارشناس ارشد مدیریت آموزشی
+                        <br>
+                        سابقه : 20 سال
+                    </p>
+                </div>
+            </div>
+            <div id="info-boxes-6" class="info-boxes">
+                <div class="boxes-right">
+                    <img id="photoes" src="images/moaven_6.jpg" alt="">
+                </div>
+                <div class="boxes-left">
+                    <h2>محمدرضا غانمی</h2>
+                    <p>
+                        سمت : معاون پرورشی
+                        <br>
+                        تحصیلات : کارشناس علوم تربیتی
+                        <br>
+                        سابقه : 24 سال
                     </p>
                 </div>
             </div>
@@ -139,6 +164,7 @@
         </div>
         <div class="davani-info">
             <div id="dav-box-1" class="davani-box">
+                <br>
                 <h1>تاریخچه تاسیس هنرستان</h1>
                 <div id="line"></div>
                 <p>هنرستان پسرانه هیات امنایی علامه دوانی آبادان در سال 1388 تاسیس شده است.</p>
