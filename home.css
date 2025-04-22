@@ -281,20 +281,20 @@
 }
 
 .boxes-right {
-  width: 50%;
+  width: 75%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .boxes-left {
-  width: 50%;
+  width: 35%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .class-box {
-  width: 45%;
+  width: 40%;
   height: 170px;
   background: red;
   display: flex;
@@ -321,6 +321,7 @@
 }
 #cb-3 {
   background-image: linear-gradient(to right, #2e9eff, #9c33f7);
+  width: 95%;
 }
 #cb-4 {
   background-image: linear-gradient(to right, #ff3571, #880175);

@@ -190,6 +190,8 @@
 }
 .boxes-right img {
   width: 120px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 .boxes-left {
   height: 100%;
@@ -198,16 +200,20 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  margin-right: 10px;
 }
 .boxes-left h2 {
   width: 90%;
   font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .boxes-left p {
   width: 90%;
   margin-top: 5px;
   font-size: 16px;
   color: rgb(83, 83, 83);
+  line-height: 25px;
 }
 
 #davani-h1 {
@@ -239,13 +245,16 @@
   transition: 1s ease-out;
 }
 
+#h1-db2{
+  margin-top: 20px;
+}
+
 #dav-box-2 {
   margin-top: 30px;
 }
 
 .davani-box h1 {
   font-size: 22px;
-  margin-top: 25px;
   width: 100%;
   color: #54c459;
 }
@@ -310,7 +319,7 @@
 
 .web-div-images {
   width: 170px;
-  height: 75px;
+  height: 70px;
   border-radius: 50px;
   border: 1px solid #54c459;
   display: flex;
@@ -339,6 +348,10 @@
   display: flex;
   align-items: center;
   flex-flow: column;
+}
+
+.modir-photo{
+  margin-top: 60px;
 }
 
 .prof-img {
@@ -514,6 +527,8 @@
   .info-boxes {
     flex-flow: column;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .boxes-left {
     align-items: center;
@@ -572,7 +587,8 @@
 
 @media screen and (max-width: 900px) {
   #info-box-1,
-  #info-box-2 {
+  #info-box-2,
+  #info-box-3 {
     flex-flow: column;
     margin: 0;
   }
@@ -658,6 +674,10 @@
     display: none;
   }
   #info-boxes {
+    padding-bottom: 30px;
+  }
+  .info-boxes {
+    padding-top: 30px;
     padding-bottom: 30px;
   }
 }

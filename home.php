@@ -198,18 +198,17 @@
     <div class="title-2">
         <div class="title-h2">
             <i class="fa fa-circle" aria-hidden="true"></i>
-            <h2>دسته بندی دوره ها</h2>
+            <h2>رشته ها</h2>
         </div>
     </div>
     <div class="class">
         <div class="class-boxes">
             <div class="boxes-right">
-                <a href="" id="cb-1" class="class-box">دهم</a>
-                <a href="" id="cb-2" class="class-box">یازدهم</a>
+                <a href="" id="cb-1" class="class-box">الکترونیک</a>
+                <a href="" id="cb-2" class="class-box">الکتروتکنیک</a>
             </div>
             <div class="boxes-left">
-                <a href="" id="cb-3" class="class-box">دوازدهم</a>
-                <a href="" id="cb-4" class="class-box">فرادرس</a>
+                <a href="" id="cb-3" class="class-box">شبکه</a>
             </div>
         </div>
     </div>

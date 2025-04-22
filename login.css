@@ -228,6 +228,9 @@ body {
   .right-2 {
     width: 100%;
   }
+  #captcha{
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -236,5 +239,15 @@ body {
   }
   .box-login {
     width: 90%;
+  }
+  .bl-center input{
+    width: 85%;
+  }
+  #login-btn{
+    width: 85%;
+  }
+  
+  #captcha{
+    width: 70%;
   }
 }

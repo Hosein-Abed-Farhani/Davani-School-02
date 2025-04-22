@@ -49,9 +49,9 @@
                     <p>مدیر</p>
                 </div>
                 <div class="web-info-content">
-                    <img id="photoes" src="images/modir.jpg" alt="" class="prof-img">
+                    <img class="modir-photo" id="photoes" src="images/modir.jpg" alt="" class="prof-img">
                     <h1>مهرداد فخر آبادی</h1>
-                    <p style="line-height: 30px;">
+                    <p style="line-height: 35px;">
                         سمت : مدیریت هنرستان
                         <br>
                         تحصیلات : فوق لیسانس حسبداری
@@ -185,7 +185,7 @@
                 </div>
             </div>
             <div id="dav-box-2" class="davani-box">
-                <h1>دانش آموزان و رشته ها</h1>
+                <h1 id="h1-db2">دانش آموزان و رشته ها</h1>
                 <div id="line"></div>
                 <p>هنرستان علامه دوانی در مجموع 000 دانش آموز دارد.</p>
                 <div class="davani-pes">
