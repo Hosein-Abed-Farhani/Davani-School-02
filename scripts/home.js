@@ -355,3 +355,28 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(box);
   });
 });
+
+function cb_move() {
+  document.querySelector("#cb-1").style.padding = "0px";
+  document.querySelector("#cb-2").style.padding = "0px";
+  document.querySelector("#cb-3").style.padding = "0px";
+}
+
+function cb_1() {
+  cb_move();
+  document.querySelector("#cb-1").style.padding = "10px";
+  document.querySelector("#cb-2").style.padding = "-10px";
+  document.querySelector("#cb-3").style.padding = "-10px";
+}
+function cb_2() {
+  cb_move();
+  document.querySelector("#cb-1").style.padding = "-10px";
+  document.querySelector("#cb-2").style.padding = "10px";
+  document.querySelector("#cb-3").style.padding = "-10px";
+}
+function cb_3() {
+  cb_move();
+  document.querySelector("#cb-1").style.padding = "-10px";
+  document.querySelector("#cb-2").style.padding = "-10px";
+  document.querySelector("#cb-3").style.padding = "10px";
+}

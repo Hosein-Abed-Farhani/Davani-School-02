@@ -29,7 +29,7 @@
         </div>
         <div id="cp-right">
             <div id="cp-right-info">
-                <h1>هنرستان علامه دوانی</h1>
+                <h1 id="school-h1">هنرستان علامه دوانی</h1>
                 <div></div>
                 <p>حسین فرهانی عزیز به سایت هنرستان علامه دوانی خوش آمدید</p>
             </div>
@@ -204,11 +204,11 @@
     <div class="class">
         <div class="class-boxes">
             <div class="boxes-right">
-                <a href="" id="cb-1" class="class-box">الکترونیک</a>
-                <a href="" id="cb-2" class="class-box">الکتروتکنیک</a>
+                <a onmouseover="cb_1()" onmouseout="cb_move()" href="" id="cb-1" class="class-box">الکترونیک</a>
+                <a onmouseover="cb_2()" onmouseout="cb_move()" href="" id="cb-2" class="class-box">الکتروتکنیک</a>
             </div>
             <div class="boxes-left">
-                <a href="" id="cb-3" class="class-box">شبکه</a>
+                <a onmouseover="cb_3()" onmouseout="cb_move()" href="" id="cb-3" class="class-box">شبکه</a>
             </div>
         </div>
     </div>

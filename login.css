@@ -194,7 +194,23 @@ body {
 
 .left h1{
   color: #eeeeee;
+  transition: 500ms ease-in-out;
+  font-size: 30px;
+  animation: s-h1 2s infinite;
 }
+
+@keyframes s-h1 {
+  0%{ 
+    font-size: 30px;
+  }
+  50%{ 
+    font-size: 32px;
+  }
+  100%{ 
+    font-size: 30px;
+  }
+}
+
 
 #captcha {
   width: 60%;

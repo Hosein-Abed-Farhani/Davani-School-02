@@ -8,6 +8,22 @@
 
 /* content start */
 
+#school-h1{
+  animation: s-h1 2s infinite;
+}
+
+@keyframes s-h1 {
+  0%{ 
+    transform: translateY(0px);
+  }
+  50%{ 
+    transform: translateY(10px);
+  }
+  100%{ 
+    transform: translateY(0px);
+  }
+}
+
 .content {
   width: 100%;
   max-width: 1900px;
@@ -278,6 +294,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  height: 190px;
 }
 
 .boxes-right {
@@ -305,7 +322,7 @@
   border-radius: 10px;
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .class-box.visible {
@@ -321,11 +338,13 @@
 }
 #cb-3 {
   background-image: linear-gradient(to right, #2e9eff, #9c33f7);
-  width: 95%;
+  width: 90%;
 }
 #cb-4 {
   background-image: linear-gradient(to right, #ff3571, #880175);
 }
+
+
 
 .title-1 {
   display: flex;
@@ -521,7 +540,7 @@
   padding: 10px;
   position: absolute;
   z-index: +1;
-  top: 62%;
+  top: 40%;
   left: 0%;
   cursor: pointer;
 }
@@ -532,7 +551,7 @@
   padding: 10px;
   position: absolute;
   z-index: +1;
-  top: 62%;
+  top: 40%;
   right: 0%;
   cursor: pointer;
 }
@@ -566,11 +585,11 @@
   margin-right: 15px;
 }
 .t-c-center h1 {
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 30px;
 }
 .t-c-center p {
-  font-size: 20px;
+  font-size: 19px;
   width: 80%;
   text-align: center;
   margin-top: 30px;

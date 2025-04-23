@@ -8,6 +8,22 @@
 
 /* content start */
 
+#c-h1{
+  animation: c-h1 2s infinite;
+}
+
+@keyframes c-h1 {
+  0%{ 
+    transform: translateY(0px);
+  }
+  50%{ 
+    transform: translateY(10px);
+  }
+  100%{ 
+    transform: translateY(0px);
+  }
+}
+
 .content {
   width: 100%;
   max-width: 1900px;

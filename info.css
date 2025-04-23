@@ -9,6 +9,31 @@
 /* content start */
 
 
+#cp-right-info div {
+  background: #43a047;
+  align-self: center;
+  width: 50%;
+  height: 5px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+
+#cp-h1{
+  animation: cp-h1 2s infinite;
+}
+
+@keyframes cp-h1 {
+  0%{ 
+    transform: translateY(0px);
+  }
+  50%{ 
+    transform: translateY(10px);
+  }
+  100%{ 
+    transform: translateY(0px);
+  }
+}
+
 .content {
   overflow: hidden;
   max-width: 1900px;
@@ -51,11 +76,15 @@
 #cp-right-info {
   width: 90%;
   animation: top-anim 1s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 
 #cp-right h1 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #cp-right p {
   font-size: 20px;

@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="left">
-                <h1>هنرستان علامه دوانی</h1>
+                <h1 id="school-h1">هنرستان علامه دوانی</h1>
             </div>
         </div>
         <script src="scripts/login.js"></script>

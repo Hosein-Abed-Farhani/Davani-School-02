@@ -28,7 +28,7 @@
     <div class="content">
         <div class="content-img">
             <div class="content-img-right">
-                <h1>ارتباط با ما</h1>
+                <h1 id="c-h1">ارتباط با ما</h1>
                 <div></div>
                 <p>در این صفحه میتوانید راه های ارتباط با هنرستان را مشاهده کنید.</p>
             </div>
