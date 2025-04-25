@@ -333,13 +333,14 @@ body {
   #nb-right img {
     width: 500px;
     margin: 0;
-    margin-top: 15px;
+    margin-top: 20px;
   }
   #nb-span {
     rotate: 0deg;
+    font-size: 22px;
   }
   #nb-left a{
-    height: 85px;
+    height: 75px;
     width: 95%;
   }
   #nb-right{
@@ -355,7 +356,7 @@ body {
   }
   #nb-center h1{
     margin: 0;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   #nb-center p{
     margin: 0;
