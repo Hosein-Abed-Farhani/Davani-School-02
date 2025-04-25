@@ -70,7 +70,7 @@
             <i class="fa fa-circle" aria-hidden="true"></i>
             <h2>اخبار</h1>
         </div>
-        <a id="more" href="news.php">
+        <a id="more" href="news.php#title-scroll">
             <p>
                 مشاهده بیشتر
             </p>

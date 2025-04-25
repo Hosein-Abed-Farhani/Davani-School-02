@@ -23,6 +23,16 @@
     <!-- header & scroll bar & navbar start  -->
 
     <!-- content start -->
+    <div class="content-img">
+        <div class="content-img-right">
+            <h1 id="c-h1">اخبار</h1>
+            <div></div>
+            <p>در این صفحه میتوانید اخبار هنرستان را مشاهده کنید.</p>
+        </div>
+        <div class="content-img-left">
+            <img src="images/news_2.png" alt="">
+        </div>
+    </div>
     <div class="title-4">
         <div class="title-h2">
             <i class="fa fa-circle" aria-hidden="true"></i>
@@ -147,7 +157,7 @@
         </div>
         <img onclick="c_a_right()" id="c-a-right" src="images/arrow.png" alt="arrow" title="arrow">
     </div>
-    <div class="title-4">
+    <div id="title-scroll" class="title-4">
         <div class="title-h2">
             <i class="fa fa-circle" aria-hidden="true"></i>
             <h2>اخبار کلی</h1>

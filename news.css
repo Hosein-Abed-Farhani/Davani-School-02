@@ -16,6 +16,77 @@ body {
   flex-flow: column;
 }
 
+#c-h1 {
+  animation: c-h1 2s infinite;
+}
+
+@keyframes c-h1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.content-img {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #079e3e;
+  margin-top: 60px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.content-img-right {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  animation: top-anim-right 700ms ease-out;
+}
+
+.content-img-right div {
+  background: rgb(250, 250, 250);
+  width: 200px;
+  height: 5px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.content-img-right p {
+  color: rgb(252, 252, 252);
+  font-size: 24px;
+}
+
+.content-img-left {
+  width: 51%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: top-anim-left 700ms ease-out;
+}
+
+.content-img-left img {
+  width: 500px;
+}
+
+.content-img-right h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
 .title-4 {
   display: flex;
   align-items: center;
@@ -295,6 +366,10 @@ body {
   background: rgb(181, 255, 181);
 }
 
+.footer-mos {
+  margin-top: 100px;
+}
+
 /* content end */
 
 /* footr start */
@@ -304,6 +379,23 @@ body {
 /* responsive start */
 
 @media screen and (max-width: 1200px) {
+  .content-img-left img {
+    width: 400px;
+  }
+
+  .content-img-right p {
+    font-size: 20px;
+    text-align: center;
+    min-width: 80%;
+  }
+
+  .content-img-right h1 {
+    font-size: 30px;
+  }
+
+  .content-img-right div {
+    width: 160px;
+  }
   #c-a-right {
     right: 10%;
   }
@@ -323,6 +415,13 @@ body {
   }
 }
 @media screen and (max-width: 1000px) {
+  .content-img {
+    margin-top: 0;
+  }
+
+  .content-img {
+    height: 500px;
+  }
   #nb {
     display: flex;
     flex-flow: column;
@@ -340,26 +439,26 @@ body {
     rotate: 0deg;
     font-size: 22px;
   }
-  #nb-left a{
+  #nb-left a {
     height: 75px;
     width: 95%;
   }
-  #nb-right{
+  #nb-right {
     width: 100%;
     height: 40%;
     justify-content: center;
   }
-  #nb-center{
+  #nb-center {
     width: 100%;
     height: 40%;
     justify-content: flex-start;
     align-items: center;
   }
-  #nb-center h1{
+  #nb-center h1 {
     margin: 0;
     margin-top: 45px;
   }
-  #nb-center p{
+  #nb-center p {
     margin: 0;
     text-align: center;
     line-height: 30px;
@@ -367,18 +466,30 @@ body {
     font-size: 20px;
     width: 80%;
   }
-  #nb-left{
+  #nb-left {
     width: 100%;
     height: 20%;
     justify-content: center;
     position: absolute;
     bottom: 15px;
   }
-  #nb-left P{
+  #nb-left P {
     align-items: flex-end;
   }
 }
 @media screen and (max-width: 900px) {
+  .content-img-left img {
+    width: 300px;
+  }
+  .content-img-right h1 {
+    font-size: 22px;
+  }
+  .content-img-right p {
+    font-size: 16px;
+  }
+  .content-img-right div {
+    width: 130px;
+  }
   #c-a-right {
     right: 2%;
   }
@@ -403,8 +514,27 @@ body {
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 680px) {
+  .content-img-left {
+    display: none;
+  }
+  .content-img-right {
+    width: 100%;
+  }
+  .content-img-right p {
+    font-size: 22px;
+  }
+
+  .content-img-right h1 {
+    font-size: 37px;
+  }
 }
 @media screen and (max-width: 550px) {
+  .content-img-right p {
+    font-size: 18px;
+  }
+  .content-img-right h1 {
+    font-size: 30px;
+  }
   .title-4 {
     margin-bottom: 50px;
   }
@@ -414,24 +544,22 @@ body {
   .title-h2 {
     align-self: start;
   }
-  #nb{
+  #nb {
     width: 95%;
     padding: 0;
   }
-  #nb-right img{
+  #nb-right img {
     width: 95%;
     margin-top: 15px;
   }
-  #nb-right{
+  #nb-right {
     align-items: flex-start;
     height: auto;
-    
   }
-  #nb-left{
+  #nb-left {
     height: auto;
-
   }
-  #nb-center h1{
+  #nb-center h1 {
     font-size: 22px;
     width: 90%;
     text-align: center;
@@ -439,7 +567,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  #nb-center p{
+  #nb-center p {
     font-size: 18px;
   }
 }
