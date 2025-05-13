@@ -1,6 +1,4 @@
 // nav scroll anim
-// const container = document.querySelector('.hbd-container');
-// container.scrollLeft = container.scrollWidth; // اسکرول به انتهای عرضی
 
 // image slider
 

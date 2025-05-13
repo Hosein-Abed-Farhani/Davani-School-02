@@ -299,7 +299,15 @@ body {
   border-radius: 15px;
   display: flex;
   align-items: center;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 0.5s ease-in-out;
 }
+
+#nb.visible {
+  opacity: 1;
+  transform: translateY(0);
+} 
 #nb-right {
   width: auto;
   height: 100%;

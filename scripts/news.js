@@ -123,3 +123,27 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(box);
   });
 });
+
+// class box anim
+
+document.addEventListener("DOMContentLoaded", function () {
+  const classBoxes = document.querySelectorAll("#nb");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.1, // 10% از آیتم باید در دید باشد
+    }
+  );
+
+  // مشاهده هر کدام از آیتم‌ها
+  classBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});
