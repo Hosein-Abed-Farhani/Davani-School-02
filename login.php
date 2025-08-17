@@ -24,7 +24,7 @@
                         <input type="text" name="user_name" id="user_name" placeholder="نام کاربری">
                         <input type="password" name="user_pass" id="user_pass" placeholder="گذرواژه">
                         <a id="repass" href="">بازیابی گذرواژه</a>
-                        <img id="captcha" src="images/captcha.gif" alt="captcha">
+                        <img id="captcha" src="images/captcha.png" alt="captcha">
                     </div>
                     <div class="bl-bottom">
 
