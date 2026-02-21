@@ -53,8 +53,8 @@ body {
   padding: 9px;
   color: #000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: absolute;
+  top: 30px;
 }
 
 .right,
@@ -192,7 +192,7 @@ body {
   align-items: center;
 }
 
-.left h1{
+.left h1 {
   color: #eeeeee;
   transition: 500ms ease-in-out;
   font-size: 30px;
@@ -200,17 +200,16 @@ body {
 }
 
 @keyframes s-h1 {
-  0%{ 
+  0% {
     font-size: 30px;
   }
-  50%{ 
+  50% {
     font-size: 32px;
   }
-  100%{ 
+  100% {
     font-size: 30px;
   }
 }
-
 
 #captcha {
   width: 60%;
@@ -244,7 +243,7 @@ body {
   .right-2 {
     width: 100%;
   }
-  #captcha{
+  #captcha {
     width: 55%;
   }
 }
@@ -256,14 +255,14 @@ body {
   .box-login {
     width: 90%;
   }
-  .bl-center input{
+  .bl-center input {
     width: 85%;
   }
-  #login-btn{
+  #login-btn {
     width: 85%;
   }
-  
-  #captcha{
+
+  #captcha {
     width: 70%;
   }
 }

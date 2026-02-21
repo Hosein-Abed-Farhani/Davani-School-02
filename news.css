@@ -307,7 +307,7 @@ body {
 #nb.visible {
   opacity: 1;
   transform: translateY(0);
-} 
+}
 #nb-right {
   width: auto;
   height: 100%;
